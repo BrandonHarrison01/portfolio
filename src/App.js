@@ -1,11 +1,14 @@
 import React from 'react';
 import './styling/App.scss';
 
+import NavBar from './components/NavBar'
+import TitlePage from './components/TitlePage'
+
 function App() {
   return (
     <div className="App">
-      <h1>Brandon Harrison Portfolio</h1>
-      <h2>Welcome!</h2>
+      <NavBar />
+      <TitlePage />
     </div>
   );
 }
