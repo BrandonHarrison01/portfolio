@@ -1,8 +1,27 @@
-.title {
+.header-page {
     height: 600px;
     width: 100%;
-    border: 1px solid red;
+    border-bottom: 1px solid white;
+    
+    .logos {
+        // border: 1px solid white;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+
+        .logo {
+            height: 30px;
+            margin: 10px;
+        }
+    }
+}
+
+
+.title {
+    height: 550px;
     display: flex;
+    // border: 1px solid blue;
     flex-direction: column;
     justify-content: center;
     align-items: center;
