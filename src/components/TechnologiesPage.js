@@ -8,27 +8,21 @@ function TechnologiesPage() {
             <h1>Technologies I have experience with</h1>
             <div className='tech'>
                 <div>
-                    <h2>Languages</h2>
+                    <h2>Front-End</h2>
                     <ul>
                         <li>html</li>
-                        <li>css</li>
+                        <li>css/less/sass</li>
                         <li>javascript</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Libraries and Frameworks</h2>
-                    <ul>
                         <li>React</li>
-                        <li>Redux</li>
                         <li>React Native</li>
+                        <li>Redux</li>
                     </ul>
                 </div>
                 <div>
-                    <h2>Tools</h2>
+                    <h2>Back-End</h2>
                     <ul>
-                        <li>GitHub</li>
-                        <li>Insomnia</li>
-                        <li>PostMan</li>
+                        <li>node.js</li>
+                        <li>mySQL</li>
                     </ul>
                 </div>
             </div>
