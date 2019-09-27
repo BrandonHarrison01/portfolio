@@ -1,7 +1,7 @@
 .header-page {
     height: 600px;
     width: 100%;
-    border-bottom: 1px solid rgb(194, 194, 194);
+    // border-bottom: 1px solid rgb(194, 194, 194);
     
     .logos {
         // border: 1px solid white;
@@ -9,10 +9,30 @@
         display: flex;
         justify-content: flex-end;
         padding-right: 20px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+
+                .logo{
+                    height: 33px;
+                    margin: 18.5px 18.5px 0;
+                }
+            }
+        }
 
         .logo {
             height: 30px;
-            margin: 20px 10px 0;
+            margin: 20px 20px 1.5px;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            color: rgb(194, 194, 194);
+            margin-top: 5px;
+            font-size: .7rem;
         }
     }
 }

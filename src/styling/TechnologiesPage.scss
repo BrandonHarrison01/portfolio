@@ -1,10 +1,13 @@
 .tech-page {
     color: white;
-    width: 100%;
+    width: 98%;
     height: 400px;
     background-color: black;
-    border-bottom: 1px solid white;
+    // border-bottom: 1px solid white;
+    margin: 0 auto;
     text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
 
     h1 {
         font-size: 2rem;

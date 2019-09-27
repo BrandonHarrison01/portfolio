@@ -14,4 +14,12 @@
         width: 300px;
         justify-content: space-between;
     }
+
+    p {
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
 }
