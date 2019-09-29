@@ -1,0 +1,61 @@
+.projects {
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: 200px auto;
+    padding: 50px;
+    border-radius: 5px;
+
+    h1 {
+        font-family: 'Merriweather', serif;
+        font-size: 1.6rem;
+        background-color: white;
+        padding: 5px 20px;
+        border-radius: 2px;
+        display: inline-block;
+    }
+
+    .project-card {
+        margin: 80px 25px;
+        background-color: rgb(49, 60, 70);
+        display: flex;
+        border-radius: 3px;
+        border: 1px solid gray;
+
+        img {
+            height: 250px
+        }
+
+        .project-info {
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            // align-content: center;
+            margin: 0 auto;
+            flex-direction: column;
+
+            h2 {
+                font-family: 'Merriweather', serif;
+                font-size: 1.1rem;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                margin: 20px 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: gray;
+                padding: 5px 10px;
+                margin: 5px;
+                border-radius: 20px;
+                border: 1px solid gray;
+                font-size: .9rem;
+
+                &:hover {
+                    background-color: gray;
+                    color: rgb(49, 60, 70);
+                }
+            }
+        }
+    }
+}

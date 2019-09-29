@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <TitlePage />
       <TechnologiesPage />
-      {/* <Projects /> */}
+      <Projects />
       {/* ↓ navigate to new page ↓ 😎 */}
       {/* <About /> */}
     </div>

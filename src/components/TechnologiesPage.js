@@ -16,7 +16,7 @@ function TechnologiesPage() {
     return(
         <div className='tech-page'>
             <div className='title-container'>
-                <h1>Technologies I have experience with</h1>
+                <h1>Technologies I have experience with:</h1>
             </div>
             <div className='tech'>
                 <div>

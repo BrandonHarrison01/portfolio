@@ -1,6 +1,6 @@
 .tech-page {
     color: white;
-    width: 98%;
+    width: 93%;
     height: 400px;
     background-color: black;
     margin: 0 auto;
@@ -12,13 +12,13 @@
     
     h1 {
         margin: 0 auto;
-        font-size: 2rem;
-        width: 50%;
         background-color: white;
         color: black;
-        padding: 5px;
+        padding: 5px 20px;
         font-family: 'Merriweather', serif;
         font-size: 1.6rem;
+        border-radius: 2px;
+        display: inline-block;
     }
 
     .tech {
