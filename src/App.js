@@ -6,6 +6,7 @@ import TitlePage from './components/TitlePage'
 import TechnologiesPage from './components/TechnologiesPage'
 import Projects from './components/Projects'
 import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <TechnologiesPage />
       <Projects />
+      <Contact />
       {/* ↓ navigate to new page ↓ 😎 */}
     </div>
   );
