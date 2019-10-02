@@ -1,6 +1,21 @@
 .about-container {
-    border: 1px solid gray;
     border-radius: 5px;
     background-color: black;
     color: white;
+    padding: 50px 80px;
+    margin: 50px 0 150px;
+
+    h1 {
+        font-family: 'Merriweather', serif;
+        font-size: 1.6rem;
+        background-color: white;
+        padding: 5px 20px;
+        border-radius: 2px;
+        display: inline-block;
+        color: black;
+    }
+
+    p {
+        margin-top: 20px;
+    }
 }
