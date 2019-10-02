@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../styling/About.scss'
+
 function About() {
     return(
         <div>
