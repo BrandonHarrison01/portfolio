@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <NavBar />
       <TitlePage />
+      <About />
       <TechnologiesPage />
       <Projects />
       {/* ↓ navigate to new page ↓ 😎 */}
-      {/* <About /> */}
     </div>
   );
 }
