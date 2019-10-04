@@ -6,10 +6,14 @@ import blackjackCounter from "../images/screenshots/BlackJack-Counter.png";
 import forLifeFitness from "../images/screenshots/forLife-Fitness.png";
 import guidr from "../images/screenshots/GUIDR.png";
 
-function Projects() {
+function Projects(props) {
   return (
     <div className='projects'>
-      <h1>Projects:</h1>
+      <h1>{"< Projects >"}</h1>
+      <p className='description'>
+        Here are a few of my more significant projects. Please, feel free to
+        play around!
+      </p>
       <div className='project-card'>
         <img src={blackjackCounter} />
         <div className='project-info'>
@@ -20,16 +24,19 @@ function Projects() {
             counting skills and develop an understanding on how card counting
             works.
           </p>
-          <div>
-            <a
-              href='https://github.com/BrandonHarrison01/card-counter'
-              target='_blank'
-            >
-              GitHub
-            </a>
-            <a href='https://blakjak-counter.netlify.com/' target='_blank'>
-              Link
-            </a>
+          <div className='buttons'>
+            <div>
+              <a
+                href='https://github.com/BrandonHarrison01/card-counter'
+                target='_blank'
+              >
+                GitHub
+              </a>
+              <a href='https://blakjak-counter.netlify.com/' target='_blank'>
+                Link
+              </a>
+            </div>
+            <button onClick={props.toggleModal}>See More.</button>
           </div>
         </div>
       </div>
@@ -37,12 +44,12 @@ function Projects() {
         <div className='project-info'>
           <h2>GUIDR</h2>
           <p>
-            Guidr is a mobile first tool designed for outdoor enthusiasts to document and
-            share their outdoor adventures. A user has the ability to share
-            pictures and journal what happened on the adventure and how it went.
-            On this project I did the front-end work using React and Redux,
-            I also had the opportunity to work directly with a back-end dev as
-            well as a UX designer.
+            Guidr is a mobile first tool designed for outdoor enthusiasts to
+            document and share their outdoor adventures. A user has the ability
+            to share pictures and journal what happened on the adventure and how
+            it went. On this project I did the front-end work using React and
+            Redux, I also had the opportunity to work directly with a back-end
+            dev as well as a UX designer.
           </p>
           <div>
             <a href='https://github.com/guidr-bw/guidr-FE' target='_blank'>
