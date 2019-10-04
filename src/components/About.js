@@ -1,14 +1,32 @@
-import React from 'react'
+import React from "react";
 
-import '../styling/About.scss'
+import "../styling/About.scss";
 
 function About() {
-    return(
-        <div className='about-container'>
-            <h1>About Me:</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-    )
+  return (
+    <div className='about-container'>
+      <h1>{'< About Me >'}</h1>
+      <div className='about-body'>
+        <h2>
+          Hi I'm Brandon!<br/>
+          I am a full-stack web developer<br/>
+          based in Midvale, Utah.<br/>
+          Please take a look around!
+        </h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </div>
+  );
 }
 
-export default About
+export default About;

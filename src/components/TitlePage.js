@@ -1,9 +1,9 @@
 import React from "react";
 
 import "../styling/TitlePage.scss";
-import GitHub from "../images/GitHub-Mark.png";
-import LinkedIn from "../images/LinkedIn.png";
-import Resume from "../images/Resume.png";
+import GitHub from "../images/logos/GitHub-Mark.png";
+import LinkedIn from "../images/logos/LinkedIn.png";
+import Resume from "../images/logos/Resume.png";
 
 function TitlePage() {
   return (
@@ -24,7 +24,7 @@ function TitlePage() {
       </div>
       <div className='title'>
         <h1>Brandon Harrison</h1>
-        <h2>Full-Stack Developer</h2>
+        <h2>Full-Stack Web Developer</h2>
       </div>
     </div>
   );
