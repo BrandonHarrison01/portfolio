@@ -4,9 +4,11 @@ import '../styling/HiddenComponent.scss'
 
 function HiddenComponent(props) {
     return(
-        <div className={props.toggle ? 'on' : 'off'}>
-            <p>testing...</p>
-            <button onClick={props.toggleModalOff} >close</button>
+        <div className={props.toggle ? 'modal block' : 'modal none'}>
+            <div className='modal-main'>
+                <p>testing...</p>
+                <p onClick={props.toggleModalOff} >X</p>
+            </div>
         </div>
     )
 }

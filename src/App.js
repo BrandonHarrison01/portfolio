@@ -14,6 +14,7 @@ function App() {
 
   const toggleModal = () => {
     setToggle(true)
+    console.log(toggle, 'tog')
   }
 
   const toggleModalOff = () => {
