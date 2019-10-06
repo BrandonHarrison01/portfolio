@@ -51,13 +51,19 @@ function Projects(props) {
             Redux, I also had the opportunity to work directly with a back-end
             dev as well as a UX designer.
           </p>
-          <div>
-            <a href='https://github.com/guidr-bw/guidr-FE' target='_blank'>
-              GitHub
-            </a>
-            <a href='https://nostalgic-cray-f6e949.netlify.com' target='_blank'>
-              Link
-            </a>
+          <div className='buttons'>
+            <div>
+              <a href='https://github.com/guidr-bw/guidr-FE' target='_blank'>
+                GitHub
+              </a>
+              <a
+                href='https://nostalgic-cray-f6e949.netlify.com'
+                target='_blank'
+              >
+                Link
+              </a>
+            </div>
+            <button onClick={props.toggleModal}>See More</button>
           </div>
         </div>
         <img src={guidr} />
@@ -72,16 +78,19 @@ function Projects(props) {
             counting skills and develop an understanding on how card counting
             works.
           </p>
-          <div>
-            <a
-              href='https://github.com/BrandonHarrison01/card-counter'
-              target='_blank'
-            >
-              GitHub
-            </a>
-            <a href='https://blakjak-counter.netlify.com/' target='_blank'>
-              Link
-            </a>
+          <div className='buttons'>
+            <div>
+              <a
+                href='https://github.com/BrandonHarrison01/card-counter'
+                target='_blank'
+              >
+                GitHub
+              </a>
+              <a href='https://blakjak-counter.netlify.com/' target='_blank'>
+                Link
+              </a>
+            </div>
+            <button onClick={props.toggleModal}>See More.</button>
           </div>
         </div>
       </div>
@@ -96,16 +105,19 @@ function Projects(props) {
             to work with a back-end dev, a UX Designer, and I had a less
             experienced front-end dev I was able to teach.
           </p>
-          <div>
-            <a
-              href='https://github.com/bw-weight-lifting-journal/Front-end'
-              target='_blank'
-            >
-              GitHub
-            </a>
-            <a href='https://forlife-fitness.netlify.com/' target='_blank'>
-              Link
-            </a>
+          <div className='buttons'>
+            <div>
+              <a
+                href='https://github.com/bw-weight-lifting-journal/Front-end'
+                target='_blank'
+              >
+                GitHub
+              </a>
+              <a href='https://forlife-fitness.netlify.com/' target='_blank'>
+                Link
+              </a>
+            </div>
+            <button onClick={props.toggleModal}>See More.</button>
           </div>
         </div>
         <img src={forLifeFitness} />

@@ -1,3 +1,13 @@
 .off {
     display: none
 }
+
+.on {
+    width: 80%;
+    height: 500px;
+    border: 2px dashed red;
+    position: sticky;
+    top: 15%;
+    margin: 0 auto;
+    background-color: orange;
+}

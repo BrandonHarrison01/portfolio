@@ -13,8 +13,11 @@ function App() {
   const [toggle, setToggle] = useState(false)
 
   const toggleModal = () => {
-    setToggle(!toggle)
-    console.log(toggle, 'tog')
+    setToggle(true)
+  }
+
+  const toggleModalOff = () => {
+    setToggle(false)
   }
 
   return (
@@ -23,7 +26,7 @@ function App() {
       <TitlePage />
       <About />
       <TechnologiesPage />
-      <HiddenComponent toggle={toggle}/>
+      <HiddenComponent toggle={toggle} toggleModalOff={toggleModalOff} />
       <Projects toggleModal={toggleModal} />
       <Contact />
       {/* ↓ navigate to new page ↓ 😎 */}
