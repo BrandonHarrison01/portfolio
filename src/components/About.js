@@ -5,24 +5,22 @@ import "../styling/About.scss";
 function About() {
   return (
     <div className='about-container'>
-      <h1>{'< About Me >'}</h1>
+      <h1>{"< About Me >"}</h1>
       <div className='about-body'>
         <h2>
-          Hi I'm Brandon!<br/>
-          I am a full-stack web developer<br/>
-          based in Midvale, Utah.<br/>
+          Hi I'm Brandon!
+          <br />
+          I am a full-stack web developer
+          <br />
+          based in Midvale, Utah.
+          <br />
           Please take a look around!
         </h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          I take great pride in quality work and really invest myself in my
+          projects, I don't like to put my name on anything less than great. I
+          believe a good Dev is adaptable, works well in teams, and is always
+          willing to learn more to solve new challenges.
         </p>
       </div>
     </div>

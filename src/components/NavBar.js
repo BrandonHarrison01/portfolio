@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react";
 
-import '../styling/NavBar.scss'
+import "../styling/NavBar.scss";
 
 function NavBar() {
-    return(
-        <div className='nav-bar'>
-            <p>Home</p>
-            <div className='site-nav'>
-                <p>Technologies</p>
-                <p>Projects</p>
-                <p>Contact</p>
-            </div>
-        </div>
-    )
+  return (
+    <div className='nav-bar'>
+      <a href='#home'>Home</a>
+      <div className='site-nav'>
+        <a href='#technologies'>Technologies</a>
+        <a href='#projects'>Projects</a>
+        <a href='#contact'>Contact</a>
+      </div>
+    </div>
+  );
 }
 
-export default NavBar
+export default NavBar;
