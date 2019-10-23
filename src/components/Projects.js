@@ -21,7 +21,7 @@ function Projects(props) {
             <h2>Blackjack Card Counter</h2>
             <p>
               The blackjack card counter is a web app designed for mobile use. The
-              purpose of the app is to help the consumer practice his/her card
+              purpose of the app is to help the consumer practice their card
               counting skills and develop an understanding on how card counting
               works.
             </p>
@@ -75,7 +75,7 @@ function Projects(props) {
             <h2>Blackjack Card Counter</h2>
             <p>
               The blackjack card counter is a web app designed for mobile use. The
-              purpose of the app is to help the consumer practice his/her card
+              purpose of the app is to help the consumer practice their card
               counting skills and develop an understanding on how card counting
               works.
             </p>
