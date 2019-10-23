@@ -1,9 +1,9 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import "../styling/TitlePage.scss";
-import GitHub from "../images/logos/GitHub-Mark.png";
-import LinkedIn from "../images/logos/LinkedIn.png";
-import Resume from "../images/logos/Resume.png";
 
 function TitlePage() {
   return (
@@ -11,15 +11,15 @@ function TitlePage() {
       <a name='home'>    </a>
         <div className='logos'>
           <a href='https://drive.google.com/file/d/1ZbMkz_vN34FQ1JZHuWOrif5exxZTRwcZ/view?usp=sharing' target='_blank' >
-            <img className='logo' src={Resume} />
+            <FontAwesomeIcon icon={faFile} size='2x' className='logo' />
             <p>Resume</p>
           </a>
           <a href='https://github.com/BrandonHarrison01' target='_blank' >
-            <img className='logo' src={GitHub} />
+            <FontAwesomeIcon icon={faGithub} size='2x' className='logo' />
             <p>GitHub</p>
           </a>
           <a href='https://www.linkedin.com/in/brandon-harrison-01/' target='_blank' >
-            <img className='logo' src={LinkedIn} />
+            <FontAwesomeIcon icon={faLinkedin} size='2x' className='logo' />
             <p>LinkedIn</p>
           </a>
         </div>

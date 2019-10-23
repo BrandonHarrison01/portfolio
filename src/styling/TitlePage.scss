@@ -14,18 +14,13 @@
 
         a {
             text-decoration: none;
-
-            &:hover {
-
-                .logo{
-                    height: 33px;
-                    margin: 18.5px 18.5px 0;
-                }
-            }
+            transition: all .2s ease-in-out;
+            
+            &:hover { transform: scale(1.1); }
         }
 
         .logo {
-            height: 30px;
+            color: rgb(214, 214, 214);
             margin: 20px 20px 1.5px;
         }
 
