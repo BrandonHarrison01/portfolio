@@ -12,74 +12,110 @@
         border-radius: 2px;
         display: inline-block;
     }
-
+    
     .description {
         font-family: 'Roboto', sans-serif;
         color: rgb(204, 202, 202);
         margin-top: 30px;
     }
 
-    .project-card {
-        margin: 50px 25px 100px;
-        background-color: rgb(49, 60, 70);
+    .cards {
         display: flex;
-        border-radius: 3px;
-        border: 1px solid gray;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
-        img {
-            height: 250px
-        }
-
-        .project-info {
-            width: 450px;
+        .project-card {
+            margin: 50px 0;
+            padding: 1px;
+            background-color: rgb(49, 60, 70);
             display: flex;
-            justify-content: center;
-            // align-content: center;
-            margin: 0 auto;
-            flex-direction: column;
-
-            h2 {
-                font-family: 'Merriweather', serif;
-                font-size: 1.2rem;
-            }
-
-            .proj-desc {
-                font-family: 'Roboto', sans-serif;
-                margin: 20px 0;
-                color: rgb(204, 202, 202);
-                line-height: 1.2;
-            }
-
-            .buttons {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-
-                a {
-                    text-decoration: none;
-                    color: gray;
-                    margin: 5px;
-                    padding: 5px 10px;
-                    border-radius: 20px;
-                    border: 1px solid gray;
-                    font-size: .9rem;
-                    font-family: 'Roboto', sans-serif;
+            border-radius: 3px;
+            border: 1px solid gray;
+            width: 48%;
     
-                    &:hover {
-                        background-color: gray;
-                        color: rgb(49, 60, 70);
+            img {
+                height: 400px
+            }
+    
+            .project-info {
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                flex-direction: column;
+    
+                h2 {
+                    font-family: 'Merriweather', serif;
+                    font-size: 1.2rem;
+                }
+    
+                .proj-desc {
+                    font-family: 'Roboto', sans-serif;
+                    margin: 20px 0 40px;
+                    color: rgb(204, 202, 202);
+                    line-height: 1.2;
+                }
+    
+                h3 {
+                    font-family: 'Merriweather', serif;
+                    font-size: .9rem;
+                }
+    
+                .tech {
+                    display: flex;
+                    // justify-content: space-between;
+                    margin: 10px 5px 40px;
+                    
+                    div {
+                        text-align: center;
+                        margin-right: 25px;
+    
+                        img {
+                            height: 30px;
+                        }
+    
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            color: rgb(204, 202, 202);
+                            font-size: .8rem;
+                        }
                     }
+                }
+    
+                .buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    a {
+                        text-decoration: none;
+                        color: gray;
+                        margin-right: 5px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        border: 1px solid gray;
+                        font-size: .8rem;
+                        font-family: 'Roboto', sans-serif;
+                        flex-direction: column;
+        
+                        &:hover {
+                            background-color: gray;
+                            color: rgb(49, 60, 70);
+                        }
+                    }
+    
                 }
 
                 .see-more {
                     font-family: 'Roboto', sans-serif;
-                    font-size: .9rem;
-                    margin: 5px;
+                    font-size: .8rem;
+                    // margin-top: 25px;
                     padding: 5px 10px;
                     border-radius: 20px;
                     border: 1px solid gray;
                     color: rgb(49, 60, 70);
                     background-color: gray;
+                    width: fit-content;
                     
                     &:hover {
                         border: 1px solid gray;
@@ -87,8 +123,9 @@
                         color: gray;
                     }
                 }
+    
             }
-
         }
+
     }
 }

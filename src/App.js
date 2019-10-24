@@ -3,7 +3,6 @@ import './styling/App.scss';
 
 import NavBar from './components/NavBar'
 import TitlePage from './components/TitlePage'
-import TechnologiesPage from './components/TechnologiesPage'
 import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -14,7 +13,6 @@ function App() {
 
   const toggleModal = () => {
     setToggle(true)
-    console.log(toggle, 'tog')
   }
 
   const toggleModalOff = () => {
@@ -26,7 +24,6 @@ function App() {
       <NavBar />
       <TitlePage />
       <About />
-      <TechnologiesPage />
       <HiddenComponent toggle={toggle} toggleModalOff={toggleModalOff} />
       <Projects toggleModal={toggleModal} />
       <Contact />
