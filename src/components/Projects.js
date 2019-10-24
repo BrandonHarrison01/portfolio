@@ -19,7 +19,7 @@ function Projects(props) {
           <img src={blackjackCounter} />
           <div className='project-info'>
             <h2>Blackjack Card Counter</h2>
-            <p>
+            <p className='proj-desc'>
               The blackjack card counter is a web app designed for mobile use. The
               purpose of the app is to help the consumer practice their card
               counting skills and develop an understanding on how card counting
@@ -34,17 +34,17 @@ function Projects(props) {
                   GitHub
                 </a>
                 <a href='https://blakjak-counter.netlify.com/' target='_blank'>
-                  Link
+                  Deployed App
                 </a>
               </div>
-              <button onClick={props.toggleModal}>See More.</button>
+              <p className='see-more' onClick={props.toggleModal}>See More</p>
             </div>
           </div>
         </div>
         <div className='project-card'>
           <div className='project-info'>
             <h2>GUIDR</h2>
-            <p>
+            <p className='proj-desc'>
               Guidr is a mobile first tool designed for outdoor enthusiasts to
               document and share their outdoor adventures. A user has the ability
               to share pictures and journal what happened on the adventure and how
@@ -61,10 +61,10 @@ function Projects(props) {
                   href='https://nostalgic-cray-f6e949.netlify.com'
                   target='_blank'
                 >
-                  Link
+                  Deployed App
                 </a>
               </div>
-              <button onClick={props.toggleModal}>See More</button>
+              <p className='see-more' onClick={props.toggleModal}>See More</p>
             </div>
           </div>
           <img src={guidr} />
@@ -73,7 +73,7 @@ function Projects(props) {
           <img src={blackjackCounter} />
           <div className='project-info'>
             <h2>Blackjack Card Counter</h2>
-            <p>
+            <p className='proj-desc'>
               The blackjack card counter is a web app designed for mobile use. The
               purpose of the app is to help the consumer practice their card
               counting skills and develop an understanding on how card counting
@@ -88,17 +88,17 @@ function Projects(props) {
                   GitHub
                 </a>
                 <a href='https://blakjak-counter.netlify.com/' target='_blank'>
-                  Link
+                  Deployed App
                 </a>
               </div>
-              <button onClick={props.toggleModal}>See More.</button>
+              <p className='see-more' onClick={props.toggleModal}>See More</p>
             </div>
           </div>
         </div>
         <div className='project-card'>
           <div className='project-info'>
             <h2>forLife Fitness</h2>
-            <p>
+            <p className='proj-desc'>
               forLife Fitness is a weight lifting journal used to help lifters
               track and document their success and progression. This was a build
               week project where I was put on a team of developers to produce this
@@ -115,10 +115,10 @@ function Projects(props) {
                   GitHub
                 </a>
                 <a href='https://forlife-fitness.netlify.com/' target='_blank'>
-                  Link
+                  Deployed App
                 </a>
               </div>
-              <button onClick={props.toggleModal}>See More.</button>
+              <p className='see-more' onClick={props.toggleModal}>See More</p>
             </div>
           </div>
           <img src={forLifeFitness} />

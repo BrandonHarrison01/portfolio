@@ -1,6 +1,5 @@
 .contact-container {
     background-color: black;
-    color: white;
     padding: 50px;
 
     h1 {
@@ -11,6 +10,24 @@
         padding: 5px 20px;
         border-radius: 2px;
         display: inline-block;
+    }
+
+    .info {
+        padding: 30px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    span {
+        font-family: 'Roboto', sans-serif;
+        margin: 20px;
+        font-size: 1.3rem;
     }
 
 }
