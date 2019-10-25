@@ -27,9 +27,9 @@ function Projects(props) {
             <div className='project-info'>
               <h2>Key Conservation</h2>
               <p className='proj-desc'>
-                The blackjack card counter is a web app designed for mobile use. The
-                purpose of the app is to help the consumer practice their card
-                counting skills.
+                Key Conservation is a mobile app built for a non-profit
+                organization that helps supporters connect and donate to
+                conservations more effortlessly.
               </p>
               <h3>Technologies Used:</h3>
               <div className='tech'>
@@ -58,7 +58,9 @@ function Projects(props) {
                     Deployed App
                   </a> */}
                 </div>
-                <p className='see-more' onClick={props.toggleModal}>See More</p>
+                <p className='see-more' onClick={props.toggleModal}>
+                  See More
+                </p>
               </div>
             </div>
           </div>
@@ -67,8 +69,9 @@ function Projects(props) {
             <div className='project-info'>
               <h2>GUIDR</h2>
               <p className='proj-desc'>
-                Guidr is a mobile first application created for outdoor enthusiasts to
-                document and share photos and entries of their outdoor adventures.
+                Guidr is a mobile first application created for outdoor
+                enthusiasts to document and share photos and entries of their
+                outdoor adventures.
               </p>
               <h3>Technologies Used:</h3>
               <div className='tech'>
@@ -87,7 +90,10 @@ function Projects(props) {
               </div>
               <div className='buttons'>
                 <div>
-                  <a href='https://github.com/guidr-bw/guidr-FE' target='_blank'>
+                  <a
+                    href='https://github.com/guidr-bw/guidr-FE'
+                    target='_blank'
+                  >
                     GitHub
                   </a>
                   <a
@@ -97,7 +103,9 @@ function Projects(props) {
                     App Link
                   </a>
                 </div>
-                <p className='see-more' onClick={props.toggleModal}>See More</p>
+                <p className='see-more' onClick={props.toggleModal}>
+                  See More
+                </p>
               </div>
             </div>
           </div>
@@ -106,9 +114,9 @@ function Projects(props) {
             <div className='project-info'>
               <h2>Blackjack Card Counter</h2>
               <p className='proj-desc'>
-                The blackjack card counter is a web app designed for mobile use. The
-                purpose of the app is to help the consumer practice their card
-                counting skills.
+                The blackjack card counter is a web app designed for mobile use.
+                The purpose of the app is to help the consumer practice their
+                card counting skills.
               </p>
               <h3>Technologies Used:</h3>
               <div className='tech'>
@@ -129,11 +137,16 @@ function Projects(props) {
                   >
                     GitHub
                   </a>
-                  <a href='https://blakjak-counter.netlify.com/' target='_blank'>
+                  <a
+                    href='https://blakjak-counter.netlify.com/'
+                    target='_blank'
+                  >
                     App Link
                   </a>
                 </div>
-                <p className='see-more' onClick={props.toggleModal}>See More</p>
+                <p className='see-more' onClick={props.toggleModal}>
+                  See More
+                </p>
               </div>
             </div>
           </div>
