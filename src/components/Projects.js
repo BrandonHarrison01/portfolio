@@ -173,6 +173,11 @@ function Projects(props) {
               </div>
             </div>
             <img src={forLifeFitness} />
+
+
+                  here is a change to my portfolio since todays project doesn't want to give me contributions
+
+
           </div> */}
         </div>
       </div>
