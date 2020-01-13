@@ -10,9 +10,11 @@ import HiddenComponent from './components/HiddenComponent';
 
 function App() {
   const [toggle, setToggle] = useState(false)
+  const [populateModal, setPopulateModal] = useState()
 
-  const toggleModal = () => {
+  const toggleModal = (argument) => {
     setToggle(true)
+    setPopulateModal(argument)
   }
 
   const toggleModalOff = () => {
@@ -24,7 +26,7 @@ function App() {
       <NavBar />
       <TitlePage />
       <About />
-      <HiddenComponent toggle={toggle} toggleModalOff={toggleModalOff} />
+      <HiddenComponent toggle={toggle} populateModal={populateModal} toggleModalOff={toggleModalOff} />
       <Projects toggleModal={toggleModal} />
       <Contact />
       {/* ↓ navigate to new page ↓ 😎 */}

@@ -144,7 +144,7 @@ function Projects(props) {
                     App Link
                   </a>
                 </div>
-                <p className='see-more' onClick={props.toggleModal}>
+                <p className='see-more' onClick={() => props.toggleModal('seven')}>
                   See More
                 </p>
               </div>

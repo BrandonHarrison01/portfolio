@@ -7,6 +7,7 @@ function HiddenComponent(props) {
         <div className={props.toggle ? 'modal block' : 'modal none'}>
             <div className='modal-main'>
                 <p>testing...</p>
+                <p>{props.populateModal}</p>
                 <p onClick={props.toggleModalOff} >X</p>
             </div>
         </div>
