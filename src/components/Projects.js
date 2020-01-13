@@ -183,5 +183,3 @@ function Projects(props) {
 }
 
 export default Projects;
-
-// Do some more work on this portfolio during break
