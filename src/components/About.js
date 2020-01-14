@@ -14,7 +14,7 @@ function About() {
           <br />
           based in Midvale, Utah.
           <br />
-          Please take a look around!
+          Please, take a look around!
         </h2>
         <p>
           I take great pride in quality work and really invest myself in my

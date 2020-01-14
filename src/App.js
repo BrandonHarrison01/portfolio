@@ -26,7 +26,7 @@ function App() {
       <NavBar />
       <TitlePage />
       <About />
-      <HiddenComponent toggle={toggle} populateModal={populateModal} toggleModalOff={toggleModalOff} />
+      {populateModal ? <HiddenComponent toggle={toggle} populateModal={populateModal} toggleModalOff={toggleModalOff} /> : ''}
       <Projects toggleModal={toggleModal} />
       <Contact />
       {/* ↓ navigate to new page ↓ 😎 */}

@@ -2,6 +2,8 @@ import React from "react";
 
 import "../styling/Projects.scss";
 
+import { desc } from '../ProjectDescription'
+
 import keyConservation from "../images/screenshots/Key-Conservation.jpg";
 import blackjackCounter from "../images/screenshots/BlackJack-Counter.jpg";
 import forLifeFitness from "../images/screenshots/forLife-Fitness.png";
@@ -17,10 +19,6 @@ function Projects(props) {
     <a name='projects'>
       <div className='projects'>
         <h1>{"< Projects >"}</h1>
-        <p className='description'>
-          Here are a few of my more significant projects. Please, feel free to
-          play around!
-        </p>
         <div className='cards'>
           <div className='project-card'>
             <img src={keyConservation} />
@@ -58,7 +56,7 @@ function Projects(props) {
                     Deployed App
                   </a> */}
                 </div>
-                <p className='see-more' onClick={props.toggleModal}>
+                <p className='see-more' onClick={() => props.toggleModal(desc[0])}>
                   See More
                 </p>
               </div>
@@ -103,7 +101,7 @@ function Projects(props) {
                     App Link
                   </a>
                 </div>
-                <p className='see-more' onClick={props.toggleModal}>
+                <p className='see-more' onClick={() => props.toggleModal(desc[1])}>
                   See More
                 </p>
               </div>
@@ -144,7 +142,7 @@ function Projects(props) {
                     App Link
                   </a>
                 </div>
-                <p className='see-more' onClick={() => props.toggleModal('seven')}>
+                <p className='see-more' onClick={() => props.toggleModal(desc[2])}>
                   See More
                 </p>
               </div>

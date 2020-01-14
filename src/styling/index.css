@@ -1,3 +1,6 @@
+/* css reset */
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,7 +47,7 @@ table {
 
 body {
   margin: 0;
-  background-color: #222;
+  background-color: rgb(86, 91, 109);
 }
 
 /* Set every element's box-sizing to border-box */
