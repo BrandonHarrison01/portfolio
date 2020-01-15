@@ -16,6 +16,7 @@ function HiddenComponent(props) {
                     <p onClick={props.toggleModalOff} >X</p>
                 </div>
                 <div className='modal-body'>
+                    <div />
                     <p>{props.populateModal.summary}</p>
                 </div>
             </div>
