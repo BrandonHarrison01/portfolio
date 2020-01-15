@@ -57,12 +57,19 @@
             width: 49%;
         }
         
-        p {
+        .modal-desc {
             border-left: 2px solid black;
             width: 49%;
             padding: 25px;
-            font-size: 1.2rem;
-            font-family: 'Roboto', sans-serif;
+
+            li {
+                font-size: 1.2rem;
+                font-family: 'Roboto', sans-serif;
+                width: 100%;
+                // border: 1px solid red;
+                list-style-type: square;
+                margin: 0 0 20px 20px;
+            }
         }
     }
 }
