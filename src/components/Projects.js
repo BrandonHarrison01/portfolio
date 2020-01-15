@@ -148,7 +148,7 @@ function Projects(props) {
               </div>
             </div>
           </div>
-          {/* <div className='project-card'>
+          <div className='project-card desktop'>
             <div className='project-info'>
               <h2>forLife Fitness</h2>
               <p className='proj-desc'>
@@ -173,7 +173,7 @@ function Projects(props) {
             <img src={forLifeFitness} />
 
 
-          </div> */}
+          </div>
         </div>
       </div>
     </a>
