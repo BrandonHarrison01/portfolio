@@ -16,7 +16,9 @@ function HiddenComponent(props) {
                     <p onClick={props.toggleModalOff} >X</p>
                 </div>
                 <div className='modal-body'>
-                    <div />
+                    <div>
+                        <img src={props.populateModal.gif} />
+                    </div>
                     <ul className='modal-desc'>
                         {props.populateModal.summary.map(bullet => <li>{bullet}</li>)}
                     </ul>
