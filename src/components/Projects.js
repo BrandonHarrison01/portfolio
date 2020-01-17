@@ -13,6 +13,8 @@ import reactNativeLogo from "../images/logos/React-Native-Logo.png";
 import reduxLogo from "../images/logos/Redux-Logo.png";
 import nodeLogo from "../images/logos/Node-Logo.png";
 import sassLogo from "../images/logos/Sass-Logo.png";
+import bootstrapLogo from "../images/logos/Bootstrap-Logo.png";
+import formikLogo from "../images/logos/Formik-Logo.PNG";
 
 function Projects(props) {
   return (
@@ -155,6 +157,25 @@ function Projects(props) {
                 forLife Fitness is a weight lifting journal used to help lifters
                 track and document their success and progression.
               </p>
+              <h3>Technologies Used:</h3>
+              <div className='tech'>
+                <div>
+                  <img src={reactLogo} />
+                  <p>React</p>
+                </div>
+                <div>
+                  <img src={sassLogo} />
+                  <p>SCSS</p>
+                </div>
+                <div>
+                  <img src={bootstrapLogo} />
+                  <p>reactstrap</p>
+                </div>
+                <div>
+                  <img src={formikLogo} />
+                  <p>Formik</p>
+                </div>
+              </div>
               <div className='buttons'>
                 <div>
                   <a
@@ -167,7 +188,7 @@ function Projects(props) {
                     Deployed App
                   </a>
                 </div>
-                <p className='see-more' onClick={props.toggleModal}>See More</p>
+                <p className='see-more' onClick={() => props.toggleModal(desc[3])}>See More</p>
               </div>
             </div>
             <img src={forLifeFitness} />

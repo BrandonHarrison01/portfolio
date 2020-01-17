@@ -30,5 +30,14 @@ export const desc = [
         "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ],
     gif: blackjack
+  },
+  {
+    title: "forLife Fitness",
+    summary: [
+        "This app was a build week project I had the opportunity to lead other front-end devs to build",
+        "We worked with a back end dev based in europe and got to experience the challenges of working in different time zones. I felt this was valueable because we only had a narrow window to communicate, and were forced to ask questions, and communicate very efficiently",
+        "Able to practice interacting with a RESTful api, using formik.",
+    ],
+    gif: blackjack
   }
 ];

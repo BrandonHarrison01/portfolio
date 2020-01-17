@@ -67,7 +67,7 @@
                 .tech {
                     display: flex;
                     // justify-content: space-between;
-                    margin: 10px 5px 40px;
+                    margin: 15px 5px 40px;
                     
                     div {
                         text-align: center;
@@ -78,6 +78,7 @@
                         }
     
                         p {
+                            margin-top: 5px;
                             font-family: 'Roboto', sans-serif;
                             color: rgb(204, 202, 202);
                             font-size: .8rem;
