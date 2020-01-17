@@ -4,10 +4,6 @@ import '../styling/HiddenComponent.scss'
 
 function HiddenComponent(props) {
 
-    // const [isPopulated, setIsPopulated] = useState(false)
-
-    // props.populateModal ? setIsPopulated(true) : setIsPopulated(false)
-
     return(
         <div className={props.toggle ? 'modal block' : 'modal none'}>
             <div className='modal-main'>
