@@ -191,7 +191,7 @@ function Projects(props) {
                 <p className='see-more' onClick={() => props.toggleModal(desc[3])}>See More</p>
               </div>
             </div>
-            <img src={forLifeFitness} />
+            <img className='desktop-img' src={forLifeFitness} />
 
 
           </div>
