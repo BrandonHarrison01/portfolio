@@ -21,7 +21,7 @@
     background: rgba(37, 39, 47, 0.972);
     width: 80%;
     max-width: 1500px;
-    height: 800px;
+    height: 750px;
     // height: 700px;
     padding: 50px;
     top:50%;
@@ -54,7 +54,7 @@
     }
 
     .modal-body {
-        height: 600px;
+        height: 550px;
         // height: 100%;
         margin: 50px 0;
         display: flex;
@@ -84,8 +84,9 @@
                 font-family: 'Roboto', sans-serif;
                 width: 100%;
                 list-style-type: square;
-                margin: 0 0 20px 40px;
+                margin: 0 0 30px 40px;
                 color: rgb(190, 190, 190);
+                line-height: 24px;
             }
         }
     }
