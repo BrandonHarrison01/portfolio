@@ -193,7 +193,10 @@ function Projects(props) {
             </div>
             <img className='desktop-img' src={forLifeFitness} />
 
+{/* need to check screen width and conditionally change classname between cropped and uncropped */}
 
+
+            {/* <img className='desktop-img' src={forLifeFitness   👌 cropped   } /> */}
           </div>
         </div>
       </div>
