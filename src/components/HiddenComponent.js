@@ -16,7 +16,7 @@ function HiddenComponent(props) {
                         <img src={props.populateModal.gif} />
                     </div>
                     <ul className='modal-desc'>
-                        {props.populateModal.summary.map(bullet => <li>{bullet}</li>)}
+                        {props.populateModal.summary.map(bullet => <li key={bullet.id}>{bullet.bullet}</li>)}
                     </ul>
                 </div>
             </div>
