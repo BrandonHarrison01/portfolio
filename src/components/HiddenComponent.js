@@ -15,9 +15,15 @@ function HiddenComponent(props) {
                     <div>
                         <img src={props.populateModal.gif} />
                     </div>
-                    <ul className='modal-desc'>
-                        {props.populateModal.summary.map(bullet => <li key={bullet.id}>{bullet.bullet}</li>)}
-                    </ul>
+                    <div className='modal-desc'>
+                        <h2>My Role</h2>
+                        <h2>Project Difficulties</h2>
+                        <h2>My Solution</h2>
+                        <h2>Notable Features</h2>
+                        <ul>
+                            {props.populateModal.summary.map(bullet => <li key={bullet.id}>{bullet.bullet}</li>)}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

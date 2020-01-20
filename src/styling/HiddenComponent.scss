@@ -78,6 +78,13 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            text-align: left;
+
+            h2 {
+                color: rgb(190, 190, 190);
+                font-family: 'Merriweather', serif;
+                font-size: 1.3rem;
+            }
 
             li {
                 font-size: 1.2rem;
