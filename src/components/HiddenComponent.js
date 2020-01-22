@@ -17,11 +17,14 @@ function HiddenComponent(props) {
                     </div>
                     <div className='modal-desc'>
                         <h2>My Role</h2>
+                        <p>{props.populateModal.role}</p>
                         <h2>Project Difficulties</h2>
+                        <p>{props.populateModal.difficulties}</p>
                         <h2>My Solution</h2>
+                        <p>{props.populateModal.solution}</p>
                         <h2>Notable Features</h2>
                         <ul>
-                            {props.populateModal.summary.map(bullet => <li key={bullet.id}>{bullet.bullet}</li>)}
+                            {props.populateModal.features.map(bullet => <li key={bullet.id}>{bullet.bullet}</li>)}
                         </ul>
                     </div>
                 </div>

@@ -13,6 +13,10 @@ import HiddenComponent from "./components/HiddenComponent";
 
 //background images
 import midvaleMtn from "./images/backgrounds/midvale-mtn.JPG";
+import jordanRiver from "./images/backgrounds/jordan-river.jpg";
+import quintero from "./images/backgrounds/quintero.jpg";
+import stansburyIsland from "./images/backgrounds/stansbury-island.jpg";
+import horseshoeSprings from "./images/backgrounds/horseshoe-springs.jpg";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -20,7 +24,7 @@ function App() {
   const [randomIndex, setRandomIndex] = useState();
 
   // import background ↑ add it to useState array ↓
-  const background = useState([midvaleMtn]);
+  const background = useState([midvaleMtn, jordanRiver, quintero, stansburyIsland, horseshoeSprings]);
 
   useEffect(() => {
     setRandomIndex(Math.floor(Math.random() * background[0].length))

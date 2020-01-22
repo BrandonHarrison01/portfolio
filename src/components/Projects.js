@@ -28,7 +28,7 @@ function Projects(props) {
           <div className='project-info'>
             <h2>Key Conservation</h2>
             <p className='proj-desc'>
-              Key Conservation is a mobile app built for a non-profit
+              Key Conservation is a mobile application built for a non-profit
               organization that helps supporters connect and donate to
               conservations more effortlessly.
             </p>
@@ -74,7 +74,7 @@ function Projects(props) {
           <div className='project-info'>
             <h2>GUIDR</h2>
             <p className='proj-desc'>
-              Guidr is a mobile first application created for outdoor
+              Guidr is a mobile first web application created for outdoor
               enthusiasts to document and share photos and entries of their
               outdoor adventures.
             </p>
