@@ -13,6 +13,8 @@ import About from './components/About'
 import Contact from './components/Contact'
 import HiddenComponent from './components/HiddenComponent';
 
+import background from './images/backgrounds/midvale-mtn.JPG'
+
 function App() {
   const [toggle, setToggle] = useState(false)
   const [populateModal, setPopulateModal] = useState()
@@ -28,6 +30,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src={background} className='background' />
       <NavBar />
       <TitlePage />
       <About />

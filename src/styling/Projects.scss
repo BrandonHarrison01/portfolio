@@ -1,19 +1,19 @@
 @import './Variables.scss';
 
 .projects {
-    background-color: rgba(0, 0, 0, 0.418);
-    margin: 400px auto;
+    background-color: rgba(71, 71, 71, 0.76);
+    margin: 350px auto;
     padding: 100px 80px 40px;
     border-radius: 5px;
 
     h1 {
         font-family: 'Merriweather', serif;
-        font-size: 1.8rem;
-        background-color: rgb(192, 194, 218);
-        padding: 10px;
+        font-size: 1.6rem;
+        background-color: white;
+        padding: 5px 20px;
         border-radius: 2px;
-        // display: inline-block;
-        width: 250px;
+        display: inline-block;
+        // width: 250px;
         margin: 0 auto 20px;
         text-align: center;
     }
@@ -37,7 +37,7 @@
         .project-card {
             margin: 50px 0;
             padding: 1px;
-            background-color: rgb(49, 60, 70);
+            background-color: rgb(71, 84, 95);
             display: flex;
             border-radius: 3px;
             border: 1px solid gray;

@@ -20,7 +20,7 @@ function Projects(props) {
   return (
     <a name='projects'>
       <div className='projects'>
-        <h1>{"< Projects >"}</h1>
+        <div className='wrapper'><h1>{"< Projects >"}</h1></div>
         <div className='cards'>
           <div className='project-card'>
             <img src={keyConservation} />
