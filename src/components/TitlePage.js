@@ -1,33 +1,40 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import "../styling/TitlePage.scss";
 
 function TitlePage() {
   return (
     <div className='header-page'>
-      <a name='home'>    </a>
-        <div className='logos'>
-          <a href='https://drive.google.com/file/d/1ZbMkz_vN34FQ1JZHuWOrif5exxZTRwcZ/view?usp=sharing' target='_blank' >
-            <FontAwesomeIcon icon={faFile} size='2x' className='logo' />
-            <p>Resume</p>
-          </a>
-          <a href='https://github.com/BrandonHarrison01' target='_blank' >
-            <FontAwesomeIcon icon={faGithub} size='2x' className='logo' />
-            <p>GitHub</p>
-          </a>
-          <a href='https://www.linkedin.com/in/brandon-harrison-01/' target='_blank' >
-            <FontAwesomeIcon icon={faLinkedin} size='2x' className='logo' />
-            <p>LinkedIn</p>
-          </a>
-        </div>
-        <div className='title'>
-          <h1>Brandon Harrison</h1>
-          <h2>Full-Stack Web Developer</h2>
-        </div>
+      <div className='logos'>
+        <a
+          href='https://drive.google.com/file/d/1ZbMkz_vN34FQ1JZHuWOrif5exxZTRwcZ/view?usp=sharing'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
+          <FontAwesomeIcon icon={faFile} size='2x' className='logo' />
+          <p>Resume</p>
+        </a>
+        <a href='https://github.com/BrandonHarrison01' rel='noopener noreferrer' target='_blank'>
+          <FontAwesomeIcon icon={faGithub} size='2x' className='logo' />
+          <p>GitHub</p>
+        </a>
+        <a
+          href='https://www.linkedin.com/in/brandon-harrison-01/'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
+          <FontAwesomeIcon icon={faLinkedin} size='2x' className='logo' />
+          <p>LinkedIn</p>
+        </a>
       </div>
+      <div className='title'>
+        <h1>Brandon Harrison</h1>
+        <h2>Full-Stack Web Developer</h2>
+      </div>
+    </div>
   );
 }
 

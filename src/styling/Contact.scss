@@ -1,6 +1,8 @@
 .contact-container {
     background-color: black;
     padding: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
     h1 {
         font-family: 'Merriweather', serif;
@@ -12,22 +14,36 @@
         display: inline-block;
     }
 
-    .info {
-        padding: 30px;
-    }
-    
-    a {
-        text-decoration: none;
-        color: white;
+    .img-flex {
         display: flex;
         align-items: center;
-        justify-content: center;
     }
 
-    span {
-        font-family: 'Roboto', sans-serif;
-        margin: 20px;
-        font-size: 1.3rem;
+    .img-container {
+        width: 50%;
+        text-align: center;
+
+        img {
+            width: 200px;
+            border-radius: 100px;
+        }
     }
 
+    .info {
+        padding: 30px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        span {
+            font-family: 'Roboto', sans-serif;
+            margin: 20px;
+            font-size: 1.3rem;
+        }
+    }
 }

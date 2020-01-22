@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import '../styling/HiddenComponent.scss'
 
@@ -13,7 +13,7 @@ function HiddenComponent(props) {
                 </div>
                 <div className='modal-body'>
                     <div>
-                        <img src={props.populateModal.gif} />
+                        <img src={props.populateModal.gif} alt='project gif' />
                     </div>
                     <div className='modal-desc'>
                         <h2>My Role</h2>

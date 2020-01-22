@@ -10,6 +10,8 @@
     font-family: 'Roboto', sans-serif;
     position: sticky;
     top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
     .site-nav {
         display: flex;
@@ -17,9 +19,12 @@
         justify-content: space-between;
     }
 
-    a {
+    button {
         text-decoration: none;
         color: white;
+        background-color: black;
+        border: none;
+        font-size: 1.1rem;
         // cursor: pointer;
         
         &:hover {
