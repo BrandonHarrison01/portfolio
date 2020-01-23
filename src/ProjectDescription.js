@@ -4,25 +4,25 @@ import blackjack from "./images/gifs/blackjack-portfolio.gif";
 export const desc = [
   {
     title: "Key Conservation",
-    role: "I collaborated with a team of six Full-Stack Developers as well two UX Designers to debug and build onto a product given to us by a stakeholder. I was directly responsible for building out the urgency feature, debugging some back-end issues, and assisted another developer on the likes and bookmarks feature.",
-    difficulties: "Before this project I had no experience in React Native or collaborating with a larger team of developers at a similar skillset to myself.",
-    solution: "I learned a ton from this project, not only the git flow of an app that is actively in production, or how to build mobile apps, but how to confidently pick up new technologies and learn on the fly.",
+    role: "I was responsible for building out the urgency feature, debugging some back-end issues, and assisted another developer on the likes and bookmarks feature.",
+    difficulties: "Before this project I had no experience in React Native or working in a larger team of developers at a similar skillset to myself.",
+    solution: "We put a Trello board to great use and had excellent communication. We leveraged the git flow and got to practice on an app that is actively in production.",
     features: [
       {
         id: 1,
         bullet:
-          "."
+          "Supporters are able to see a list of conservation organizations in a feed similar to Instagram."
       },
       {
         id: 2,
         bullet:
-          "Our team picked this project up from a past labs group, and learned react-native. Working on this app gave me confidence in learning new technologies on the fly, and the ability to jump into and contribute in someone elses' codebase."
+          "Conservations are able to post where help is needed, upload Photos and Video as well as updates, supporters are given a direct link to where donations can be recieved."
       },
       {
         id: 3,
         bullet:
-          "This app gave me a real world experience of the team dynamic and allowed me to practice the git flow on an app that is actually being used in production."
-      }
+          "All users are able to Like, Bookmark, and Comment on a Conservations Campaign."
+      },
     ],
     gif: keyCon
   },

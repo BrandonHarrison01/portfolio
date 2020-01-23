@@ -17,15 +17,16 @@ function HiddenComponent(props) {
                     </div>
                     <div className='modal-desc'>
                         <h2>My Role</h2>
-                        <p>{props.populateModal.role}</p>
+                        <p className='paragraph'>{props.populateModal.role}</p>
                         <h2>Project Difficulties</h2>
-                        <p>{props.populateModal.difficulties}</p>
+                        <p className='paragraph'>{props.populateModal.difficulties}</p>
                         <h2>My Solution</h2>
-                        <p>{props.populateModal.solution}</p>
+                        <p className='paragraph'>{props.populateModal.solution}</p>
                         <h2>Notable Features</h2>
                         <ul>
                             {props.populateModal.features.map(bullet => <li key={bullet.id}>{bullet.bullet}</li>)}
                         </ul>
+                        {props.populateModal.title === 'Key Conservation' ? <p>*App is currently in testing phase on Google Play and the App Store.</p> : ''}
                     </div>
                 </div>
             </div>
