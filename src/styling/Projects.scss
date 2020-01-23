@@ -105,17 +105,17 @@
     
                     a {
                         text-decoration: none;
-                        color: gray;
+                        color: rgb(170, 170, 170);
                         margin-right: 5px;
                         padding: 5px 10px;
                         border-radius: 20px;
-                        border: 1px solid gray;
+                        border: 1px solid rgb(170, 170, 170);
                         font-size: .8rem;
                         font-family: 'Roboto', sans-serif;
                         flex-direction: column;
         
                         &:hover {
-                            background-color: gray;
+                            background-color: rgb(170, 170, 170);;
                             color: rgb(49, 60, 70);
                         }
                     }
@@ -130,7 +130,7 @@
                     border-radius: 20px;
                     border: 1px solid gray;
                     color: rgb(49, 60, 70);
-                    background-color: gray;
+                    background-color: rgb(170, 170, 170);
                     width: fit-content;
                     cursor: pointer;
                     

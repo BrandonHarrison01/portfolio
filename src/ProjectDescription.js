@@ -4,9 +4,12 @@ import blackjack from "./images/gifs/blackjack-portfolio.gif";
 export const desc = [
   {
     title: "Key Conservation",
-    role: "I was responsible for building out the urgency feature, debugging some back-end issues, and assisted another developer on the likes and bookmarks feature.",
-    difficulties: "Before this project I had no experience in React Native or working in a larger team of developers at a similar skillset to myself.",
-    solution: "We put a Trello board to great use and had excellent communication. We leveraged the git flow and got to practice on an app that is actively in production.",
+    role:
+      "I was responsible for building out the urgency feature, debugging some back-end issues, and assisted another developer on the likes and bookmarks feature.",
+    difficulties:
+      "Before this project I had no experience in React Native or working in a larger team of developers at a similar skillset to myself.",
+    solution:
+      "We put a Trello board to great use and had excellent communication. We leveraged the git flow and got to practice on an app that is actively in use.",
     features: [
       {
         id: 1,
@@ -22,7 +25,7 @@ export const desc = [
         id: 3,
         bullet:
           "All users are able to Like, Bookmark, and Comment on a Conservations Campaign."
-      },
+      }
     ],
     gif: keyCon
   },
@@ -32,7 +35,8 @@ export const desc = [
       "I was the Front-End dev for this project, I had the responsibility of communicating with a Back-End dev and a UX-Designer to create a product we would all be happy with.",
     difficulties:
       "At the time I was quite new to Redux and didn't have a lot of confidence in my ability to interact with a RESTful api.",
-    solution: "I referenced a lot of docs plus dug through several previous projects. Also I was lucky enough to have a great back-end dev that provided me with a very well written and descriptive readme file.",
+    solution:
+      "I referenced a lot of docs plus dug through several previous projects. I also heavily communicated with our backend dev to figure out what data was being sent and recieved.",
     features: [
       {
         id: 1,
@@ -40,55 +44,55 @@ export const desc = [
       },
       {
         id: 2,
-        bullet:
-          "Users can Create, Read, Update, and Delete trips."
+        bullet: "Users can Create, Read, Update, and Delete trips."
       },
       {
         id: 3,
-        bullet:
-          "Ability to add photos."
-      },
+        bullet: "Ability to add photos."
+      }
     ],
     gif: keyCon
   },
   {
     title: "Blackjack Card Counter",
-    role: "",
-    difficulties: "",
-    solution: "",
+    role:
+      "This was an app I worked on solo in order to practice javascript logic and react hooks.",
+    difficulties: "At the time I had a hard time tying logic into react.",
+    solution:
+      "I referenced a few past assignments and was able to figure out how to apply it directly to my vision of the app.",
     features: [
       {
         id: 1,
-        bullet: "This app was a side project I was really happy with"
+        bullet:
+          "Dynamically calculates the odds of the next card to be flipped in a deck."
       },
       {
         id: 2,
-        bullet:
-          "Gave me practice using react hooks and tying javascript logic into the app"
+        bullet: "Odds and cards remaining are color coded to enable user to easily read the output."
       }
     ],
     gif: blackjack
   },
   {
     title: "forLife Fitness",
-    role: "",
-    difficulties: "",
-    solution: "",
+    role: "I was a front-end developer for this project and had the responsibility to lead two other less experienced react devs and work directly with a UX Designer.",
+    difficulties: "Our back-end developer lived in Europe, which made communicating difficult given our timezones were dramatically different.",
+    solution: "We organized questions about issues we were having, and what data we needed where and had dense efficient meetings during the narrow window our schedules collided.",
     features: [
       {
         id: 1,
         bullet:
-          "This app was a build week project I had the opportunity to lead other front-end devs to build"
+          "Users are able to keep a log of weight lifting progress by date."
       },
       {
         id: 2,
         bullet:
-          "We worked with a back end dev based in europe and got to experience the challenges of working in different time zones. I felt this was valueable because we only had a narrow window to communicate, and were forced to ask questions, and communicate very efficiently"
+          "Users can Create, Read, Update, and Delete exercises under a category of targeted muscles."
       },
-      {
-        id: 3,
-        bullet: "Able to practice interacting with a RESTful api, using formik."
-      }
+      // {
+      //   id: 3,
+      //   bullet: "Able to practice interacting with a RESTful api, using formik."
+      // }
     ],
     gif: blackjack
   }

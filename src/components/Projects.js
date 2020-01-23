@@ -50,7 +50,7 @@ function Projects(props) {
             <div className='buttons'>
               <div>
                 <a
-                  href='https://github.com/BrandonHarrison01/card-counter'
+                  href='https://github.com/Lambda-School-Labs/key-conservation-mobile'
                   rel='noopener noreferrer'
                   target='_blank'
                 >

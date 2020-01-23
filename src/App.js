@@ -24,11 +24,11 @@ function App() {
   const [randomIndex, setRandomIndex] = useState();
 
   // import background ↑ add it to useState array ↓
-  const background = useState([midvaleMtn, jordanRiver, quintero, stansburyIsland, horseshoeSprings]);
+  const background = [midvaleMtn, jordanRiver, quintero, stansburyIsland, horseshoeSprings];
 
   useEffect(() => {
-    setRandomIndex(Math.floor(Math.random() * background[0].length))
-  }, [background])
+    setRandomIndex(Math.floor(Math.random() * background.length))
+  }, [background.length])
 
   const toggleModal = argument => {
     setToggle(true);
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className='App'>
-      <img className='background' src={background[0][randomIndex]} alt='background' />
+      <img className='background' src={background[randomIndex]} alt='background' />
       <NavBar />
       <TitlePage />
       <About />
