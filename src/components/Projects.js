@@ -24,7 +24,7 @@ function Projects(props) {
       </div>
       <div className='cards'>
         <div className='project-card'>
-          <img src={keyConservation} alt='key conservation screenshot' />
+          <img src={keyConservation} className='screenshot' alt='key conservation screenshot' />
           <div className='project-info'>
             <h2>Key Conservation</h2>
             <p className='proj-desc'>
@@ -50,6 +50,7 @@ function Projects(props) {
             <div className='buttons'>
               <div>
                 <a
+                  className='github'
                   href='https://github.com/Lambda-School-Labs/key-conservation-mobile'
                   rel='noopener noreferrer'
                   target='_blank'
@@ -70,7 +71,7 @@ function Projects(props) {
           </div>
         </div>
         <div className='project-card'>
-          <img src={guidr} alt='guidr screenshot' />
+          <img src={guidr} className='screenshot' alt='guidr screenshot' />
           <div className='project-info'>
             <h2>GUIDR</h2>
             <p className='proj-desc'>
@@ -96,6 +97,7 @@ function Projects(props) {
             <div className='buttons'>
               <div>
                 <a
+                  className='github'
                   href='https://github.com/guidr-bw/guidr-FE'
                   rel='noopener noreferrer'
                   target='_blank'
@@ -120,7 +122,7 @@ function Projects(props) {
           </div>
         </div>
         <div className='project-card'>
-          <img src={blackjackCounter} alt='blackjack counter logo' />
+          <img src={blackjackCounter} className='screenshot' alt='blackjack counter logo' />
           <div className='project-info'>
             <h2>Blackjack Card Counter</h2>
             <p className='proj-desc'>
@@ -142,6 +144,7 @@ function Projects(props) {
             <div className='buttons'>
               <div>
                 <a
+                  className='github'
                   href='https://github.com/BrandonHarrison01/card-counter'
                   rel='noopener noreferrer'
                   target='_blank'
@@ -194,6 +197,7 @@ function Projects(props) {
             <div className='buttons'>
               <div>
                 <a
+                  className='github'
                   href='https://github.com/bw-weight-lifting-journal/Front-end'
                   rel='noopener noreferrer'
                   target='_blank'
@@ -205,7 +209,7 @@ function Projects(props) {
                   rel='noopener noreferrer'
                   target='_blank'
                 >
-                  Deployed App
+                  App Link
                 </a>
               </div>
               <p
@@ -216,7 +220,7 @@ function Projects(props) {
               </p>
             </div>
           </div>
-          <img className='desktop-img' src={forLifeFitness} alt='forLife fitness logo' />
+          <img className='screenshot desktop-img' src={forLifeFitness} alt='forLife fitness logo' />
 
           {/* need to check screen width and conditionally change classname between cropped and uncropped */}
 
