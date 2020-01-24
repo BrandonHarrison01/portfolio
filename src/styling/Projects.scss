@@ -201,13 +201,48 @@
         }
 
         .desktop {
-            width: 100%;
+            width: 48%;
+            flex-direction: column;
+
+            .project-info {
+                padding: 20px 30px;
+
+                .proj-desc {
+                    margin: 5px 10px 0 0;
+                }
+
+                .info-flex {
+                    display: flex;
+                    justify-content: space-between;
+
+                    @media screen and (max-width: $tablet){
+                        flex-direction: column;
+                    }
+
+                    .proj-desc {
+                        font-size: 15px;
+                    }
+    
+                    .tech {
+                        margin-bottom: 20px;
+                    
+                        div:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+
+            .desktop-img{
+                width: 100%;
+                height: auto;
+            }
 
             @media screen and (max-width: $tablet){
                 width: 80%;
                 // height: 600px;
-                display: flex;
-                flex-direction: column;
+                // display: flex;
+                // flex-direction: column;
 
                 .desktop-img {
                     max-width: 100%;

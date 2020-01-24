@@ -6,7 +6,7 @@ import { desc } from "../ProjectDescription";
 
 import keyConservation from "../images/screenshots/Key-Conservation.jpg";
 import blackjackCounter from "../images/screenshots/BlackJack-Counter.jpg";
-import forLifeFitness from "../images/screenshots/forLife-Fitness.png";
+import forLifeFitness from "../images/screenshots/forLife-Fitness-cropped.png";
 import guidr from "../images/screenshots/GUIDR.jpg";
 import reactLogo from "../images/logos/React-Logo.png";
 import reactNativeLogo from "../images/logos/React-Native-Logo.png";
@@ -169,29 +169,34 @@ function Projects(props) {
           </div>
         </div>
         <div className='project-card desktop'>
+          <img className='screenshot desktop-img' src={forLifeFitness} alt='forLife fitness logo' />
           <div className='project-info'>
             <h2>forLife Fitness</h2>
-            <p className='proj-desc'>
-              forLife Fitness is a weight lifting journal used to help lifters
-              track and document their success and progression.
-            </p>
-            <h3>Technologies Used:</h3>
-            <div className='tech'>
+            <div className='info-flex'>
+              <p className='proj-desc'>
+                forLife Fitness is a weight lifting journal used to help lifters
+                track and document their success and progression.
+              </p>
               <div>
-                <img src={reactLogo} alt='react logo' />
-                <p>React</p>
-              </div>
-              <div>
-                <img src={sassLogo} alt='scss logo' />
-                <p>SCSS</p>
-              </div>
-              <div>
-                <img src={bootstrapLogo} alt='bootstrap logo' />
-                <p>reactstrap</p>
-              </div>
-              <div>
-                <img src={formikLogo} alt='formik logo' />
-                <p>Formik</p>
+                <h3>Technologies Used:</h3>
+                <div className='tech'>
+                  <div>
+                    <img src={reactLogo} alt='react logo' />
+                    <p>React</p>
+                  </div>
+                  <div>
+                    <img src={sassLogo} alt='scss logo' />
+                    <p>SCSS</p>
+                  </div>
+                  <div>
+                    <img src={bootstrapLogo} alt='bootstrap logo' />
+                    <p>reactstrap</p>
+                  </div>
+                  <div>
+                    <img src={formikLogo} alt='formik logo' />
+                    <p>Formik</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className='buttons'>
@@ -220,7 +225,6 @@ function Projects(props) {
               </p>
             </div>
           </div>
-          <img className='screenshot desktop-img' src={forLifeFitness} alt='forLife fitness logo' />
 
           {/* need to check screen width and conditionally change classname between cropped and uncropped */}
 
