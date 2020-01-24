@@ -12,11 +12,11 @@ import Contact from "./components/Contact";
 import HiddenComponent from "./components/HiddenComponent";
 
 //background images
-import midvaleMtn from "./images/backgrounds/midvale-mtn.JPG";
-import jordanRiver from "./images/backgrounds/jordan-river.jpg";
-import quintero from "./images/backgrounds/quintero.jpg";
-import stansburyIsland from "./images/backgrounds/stansbury-island.jpg";
-import horseshoeSprings from "./images/backgrounds/horseshoe-springs.jpg";
+import midvaleMtn from "./images/backgrounds/midvale-mtn-min.JPG";
+import jordanRiver from "./images/backgrounds/jordan-river-min.jpg";
+import quintero from "./images/backgrounds/quintero-min.jpg";
+import stansburyIsland from "./images/backgrounds/stansbury-island-min.jpg";
+import horseshoeSprings from "./images/backgrounds/horseshoe-springs-min.jpg";
 
 function App() {
   const [toggle, setToggle] = useState(false);
