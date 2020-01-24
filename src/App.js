@@ -1,4 +1,4 @@
-// USE YARN
+// USE YARN 🤠
 
 import React, { useState, useEffect } from "react";
 import "./styling/App.scss";
@@ -56,7 +56,6 @@ function App() {
       )}
       <Projects toggleModal={toggleModal} />
       <Contact />
-      {/* ↓ navigate to new page ↓ 😎 */}
     </div>
   );
 }
