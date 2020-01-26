@@ -7,46 +7,45 @@
 }
 
 .modal {
+    background: rgba(0, 0, 0, 0.472);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
     position: fixed;
     top: 0;
-    left: 0;
     width:100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.472);
-    overflow: hidden;
 }
 
 .modal-main {
-    position: fixed;
     background: rgba(37, 39, 47, 0.972);
-    width: 80%;
-    max-width: 1500px;
     height: 750px;
-    // height: 700px;
-    padding: 50px;
-    top:50%;
     left:50%;
+    max-width: 1500px;
+    padding: 50px;
+    position: fixed;
+    top:50%;
     transform: translate(-50%,-50%);
+    width: 80%;
 
     .modal-title {
+        align-items: baseline;
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
 
         h1 {
-            font-family: 'Merriweather', serif;
             color: rgb(230, 230, 230);
+            font-family: 'Merriweather', serif;
             font-size: 2rem;
         }
         
         p {
-            font-family: 'Roboto', serif;
-            padding: 10px;
             border: 1px solid rgb(180, 180, 180);
-            color: rgb(180, 180, 180);
             border-radius: 3px;
-            font-size: 1.2rem;
             box-shadow: 5px 5px 8px #000000;
+            color: rgb(180, 180, 180);
+            font-family: 'Roboto', serif;
+            font-size: 1.2rem;
+            padding: 10px;
 
             &:hover {
                 background-color: rgb(100, 100, 100);
@@ -56,20 +55,17 @@
     }
 
     .modal-body {
-        height: 550px;
-        // height: 100%;
-        margin: 50px 0;
         display: flex;
+        height: 550px;
+        margin: 50px 0;
 
         div {
-            width: 49%;
             text-align: center;
+            width: 49%;
 
             img {
-                // height: 450px;
                 height: 100%;
                 text-align: center;
-                // border: 1px solid red;
             }
 
             @media screen and (max-width: 1000px){
@@ -79,47 +75,46 @@
         
         .modal-desc {
             border-left: 2px solid black;
-            width: 49%;
-            padding: 25px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: left;
+            padding: 25px;
+            width: 49%;
 
             h2 {
                 color: rgb(230, 230, 230);
                 font-family: 'Merriweather', serif;
                 font-size: 1.1rem;
-                margin-top: 10px;
                 margin-bottom: 10px;
+                margin-top: 10px;
             }
 
             .paragraph {
-                margin: 0 0 10px 20px;
-                font-family: 'Roboto', sans-serif;
                 color: rgb(190, 190, 190);
+                font-family: 'Roboto', sans-serif;
                 line-height: 20px;
+                margin: 0 0 10px 20px;
             }
 
             li {
-                // font-size: 1.2rem;
+                color: rgb(190, 190, 190);
                 font-family: 'Roboto', sans-serif;
-                width: 100%;
+                line-height: 24px;
                 list-style-type: square;
                 margin: 0 0 5px 40px;
-                color: rgb(190, 190, 190);
-                line-height: 24px;
+                width: 100%;
             }
 
             p {
-                margin-top: 10px;
-                font-family: 'Roboto', sans-serif;
                 color: rgb(190, 190, 190);
+                font-family: 'Roboto', sans-serif;
+                margin-top: 10px;
             }
 
             @media screen and (max-width: 1000px){
-                width: 98%;
                 border: none;
+                width: 98%;
             }
         }
     }
