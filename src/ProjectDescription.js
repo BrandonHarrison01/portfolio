@@ -1,5 +1,6 @@
 import keyCon from "./images/gifs/key-con-portfolio.gif";
 import blackjack from "./images/gifs/blackjack-portfolio.gif";
+import guidr from "./images/gifs/guidr-portfolio.gif";
 
 export const desc = [
   {
@@ -51,7 +52,7 @@ export const desc = [
         bullet: "Ability to add photos."
       }
     ],
-    gif: keyCon
+    gif: guidr
   },
   {
     title: "Blackjack Card Counter",
