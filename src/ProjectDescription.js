@@ -6,7 +6,7 @@ export const desc = [
   {
     title: "Key Conservation",
     role:
-      "I was responsible for building out the urgency feature, debugging some back-end issues, and assisted another developer on the likes and bookmarks feature.",
+      "I was responsible for building out the urgency feature, debugging some back-end issues, and assisted another developer on the likes and bookmarks features.",
     difficulties:
       "Before this project I had no experience in React Native or working in a larger team of developers at a similar skillset to myself.",
     solution:
@@ -33,11 +33,11 @@ export const desc = [
   {
     title: "GUIDR",
     role:
-      "I was the Front-End dev for this project, I had the responsibility of communicating with a Back-End dev and a UX-Designer to create a product we would all be happy with.",
+      "I was the Front-End Developer for this project, I had the responsibility of communicating with a Back-End Developer and a UX Designer to create a product we would all be happy with.",
     difficulties:
       "At the time I was quite new to Redux and didn't have a lot of confidence in my ability to interact with a RESTful api.",
     solution:
-      "I referenced a lot of docs plus dug through several previous projects. I also heavily communicated with our backend dev to figure out what data was being sent and recieved.",
+      "I referenced a lot of docs plus dug through several previous projects. I also heavily communicated with our Back-End dev to figure out what data was being sent and recieved.",
     features: [
       {
         id: 1,
@@ -57,8 +57,8 @@ export const desc = [
   {
     title: "Blackjack Card Counter",
     role:
-      "This was an app I worked on solo in order to practice javascript logic and react hooks.",
-    difficulties: "At the time I had a hard time tying logic into react.",
+      "This was an app I worked on solo in order to practice JavaScript logic and React Hooks.",
+    difficulties: "At the time I had a hard using logic in React.",
     solution:
       "I referenced a few past assignments and was able to figure out how to apply it directly to my vision of the app.",
     features: [
@@ -76,8 +76,8 @@ export const desc = [
   },
   {
     title: "forLife Fitness",
-    role: "I was a front-end developer for this project and had the responsibility to lead two other less experienced react devs and work directly with a UX Designer.",
-    difficulties: "Our back-end developer lived in Europe, which made communicating difficult given our timezones were dramatically different.",
+    role: "I took the roll of a Front-End Developer for this project and had the responsibility to lead two other less experienced React Developers and work directly with a UX Designer.",
+    difficulties: "Our Back-End Developer lived in Europe, which made communicating difficult given our timezones were dramatically different.",
     solution: "We organized questions about issues we were having, and what data we needed where and had dense efficient meetings during the narrow window our schedules collided.",
     features: [
       {
