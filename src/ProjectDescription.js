@@ -1,6 +1,7 @@
 import keyCon from "./images/gifs/key-con-portfolio.gif";
 import blackjack from "./images/gifs/blackjack-portfolio.gif";
 import guidr from "./images/gifs/guidr-portfolio.gif";
+import forLife from "./images/gifs/forlife-portfolio.gif";
 
 export const desc = [
   {
@@ -95,6 +96,6 @@ export const desc = [
       //   bullet: "Able to practice interacting with a RESTful api, using formik."
       // }
     ],
-    gif: blackjack
+    gif: forLife
   }
 ];

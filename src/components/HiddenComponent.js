@@ -13,7 +13,7 @@ function HiddenComponent(props) {
                 </div>
                 <div className='modal-body'>
                     <div>
-                        <img src={props.populateModal.gif} alt='project gif' />
+                        <img className={props.populateModal.title === 'forLife Fitness' ? 'gif desktop' : 'gif'} src={props.populateModal.gif} alt='project gif' />
                     </div>
                     <div className='modal-desc'>
                         <h2>My Role</h2>

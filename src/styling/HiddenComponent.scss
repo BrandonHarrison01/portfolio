@@ -62,10 +62,17 @@
         div {
             text-align: center;
             width: 49%;
+            // display: flex;
 
-            img {
+            .gif {
                 height: 100%;
                 text-align: center;
+            }
+
+            .desktop {
+                height: auto;
+                width: 450px;
+                margin-top: 180px;
             }
 
             @media screen and (max-width: 1000px){
