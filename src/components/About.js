@@ -18,7 +18,7 @@ function About() {
         </h2>
         <p>
           I take great pride in quality work and really invest myself in my
-          projects, I don't like to put my name on anything less than great. I
+          projects. I have a strong desire for continuous improvement. I
           believe a good Dev is adaptable, works well in teams, and is always
           willing to learn more to solve new challenges.
         </p>
