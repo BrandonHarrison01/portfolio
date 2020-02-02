@@ -24,7 +24,11 @@ function Projects(props) {
       </div>
       <div className='cards'>
         <div className='project-card'>
-          <img src={keyConservation} className='screenshot' alt='key conservation screenshot' />
+          <img
+            src={keyConservation}
+            className='screenshot'
+            alt='key conservation screenshot'
+          />
           <div className='project-info'>
             <h2>Key Conservation</h2>
             <p className='proj-desc'>
@@ -122,7 +126,11 @@ function Projects(props) {
           </div>
         </div>
         <div className='project-card'>
-          <img src={blackjackCounter} className='screenshot' alt='blackjack counter logo' />
+          <img
+            src={blackjackCounter}
+            className='screenshot'
+            alt='blackjack counter logo'
+          />
           <div className='project-info'>
             <h2>Blackjack Card Counter</h2>
             <p className='proj-desc'>
@@ -169,7 +177,11 @@ function Projects(props) {
           </div>
         </div>
         <div className='project-card desktop'>
-          <img className='screenshot desktop-img' src={forLifeFitness} alt='forLife fitness logo' />
+          <img
+            className='screenshot desktop-img'
+            src={forLifeFitness}
+            alt='forLife fitness logo'
+          />
           <div className='project-info'>
             <h2>forLife Fitness</h2>
             <div className='info-flex'>

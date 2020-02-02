@@ -17,7 +17,11 @@ function TitlePage() {
           <FontAwesomeIcon icon={faFile} size='2x' className='logo' />
           <p>Resume</p>
         </a>
-        <a href='https://github.com/BrandonHarrison01' rel='noopener noreferrer' target='_blank'>
+        <a
+          href='https://github.com/BrandonHarrison01'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
           <FontAwesomeIcon icon={faGithub} size='2x' className='logo' />
           <p>GitHub</p>
         </a>

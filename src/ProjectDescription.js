@@ -70,16 +70,20 @@ export const desc = [
       },
       {
         id: 2,
-        bullet: "Odds and cards remaining are color coded to enable user to easily read the output."
+        bullet:
+          "Odds and cards remaining are color coded to enable user to easily read the output."
       }
     ],
     gif: blackjack
   },
   {
     title: "forLife Fitness",
-    role: "I took the roll of a Front-End Developer for this project and had the responsibility to lead two other less experienced React Developers and work directly with a UX Designer.",
-    difficulties: "Our Back-End Developer lived in Europe, which made communicating difficult given our timezones were dramatically different.",
-    solution: "We organized questions about issues we were having, and what data we needed where and had dense efficient meetings during the narrow window our schedules collided.",
+    role:
+      "I took the roll of a Front-End Developer for this project and had the responsibility to lead two other less experienced React Developers and work directly with a UX Designer.",
+    difficulties:
+      "Our Back-End Developer lived in Europe, which made communicating difficult given our timezones were dramatically different.",
+    solution:
+      "We organized questions about issues we were having, and what data we needed where and had dense efficient meetings during the narrow window our schedules collided.",
     features: [
       {
         id: 1,
@@ -90,11 +94,7 @@ export const desc = [
         id: 2,
         bullet:
           "Users can Create, Read, Update, and Delete exercises under a category of targeted muscles."
-      },
-      // {
-      //   id: 3,
-      //   bullet: "Able to practice interacting with a RESTful api, using formik."
-      // }
+      }
     ],
     gif: forLife
   }
