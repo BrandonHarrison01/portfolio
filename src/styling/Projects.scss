@@ -1,256 +1,252 @@
-@import './Variables.scss';
+@import "./Variables.scss";
 
 .projects {
-    background-color: rgba(71, 71, 71, 0.76);
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 350px auto;
-    padding: 100px 80px 40px;
+  background-color: rgba(71, 71, 71, 0.76);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 350px auto;
+  padding: 100px 80px 40px;
 
-    @media screen and (max-width: 1300px) {
-        border-radius: 0px;
+  @media screen and (max-width: 1300px) {
+    border-radius: 0px;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 80px 40px 20px;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin: 250px auto;
+  }
+
+  h1 {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 4px 4px 4px #272727;
+    display: inline-block;
+    font-family: "Merriweather", serif;
+    font-size: 1.6rem;
+    margin: 0 auto 20px;
+    padding: 5px 20px;
+    text-align: center;
+  }
+
+  .description {
+    color: rgb(204, 202, 202);
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media screen and (max-width: $tablet) {
+      align-items: center;
+      flex-direction: column;
     }
 
-    @media screen and (max-width: 700px){
-        padding: 80px 40px 20px;
-    }
+    .project-card {
+      background-color: rgb(71, 84, 95);
+      border: 1px solid gray;
+      border-radius: 3px;
+      box-shadow: 5px 5px 10px #272727;
+      display: flex;
+      margin: 50px 0;
+      padding: 1px;
+      width: 48%;
 
-    @media screen and (max-width: 500px){
-        margin: 250px auto;
-    }
+      @media screen and (max-width: $tablet) {
+        width: 80%;
+      }
 
-    h1 {
-        background-color: white;
-        border-radius: 2px;
-        box-shadow: 4px 4px 4px #272727;
-        display: inline-block;
-        font-family: 'Merriweather', serif;
-        font-size: 1.6rem;
-        margin: 0 auto 20px;
-        padding: 5px 20px;
-        text-align: center;
-    }
-    
-    .description {
-        color: rgb(204, 202, 202);
-        font-family: 'Roboto', sans-serif;
-        margin-top: 30px;
-    }
+      @media screen and (max-width: 700px) {
+        margin: 20px 0;
+        width: 100%;
+      }
 
-    .cards {
+      .screenshot {
+        height: 400px;
+
+        @media screen and (max-width: 750px) {
+          height: 350px;
+        }
+
+        @media screen and (max-width: 700px) {
+          display: none;
+        }
+      }
+
+      .project-info {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 20px;
 
-        @media screen and (max-width: $tablet){
-            align-items: center;
-            flex-direction: column;
+        h2 {
+          font-family: "Merriweather", serif;
+          font-size: 1.2rem;
         }
 
-        .project-card {
-            background-color: rgb(71, 84, 95);
+        .proj-desc {
+          color: rgb(204, 202, 202);
+          font-family: "Roboto", sans-serif;
+          line-height: 1.2;
+          margin: 20px 0 40px;
+
+          @media screen and (max-width: 750px) {
+            font-size: 0.8rem;
+          }
+        }
+
+        h3 {
+          font-family: "Merriweather", serif;
+          font-size: 0.9rem;
+        }
+
+        .tech {
+          display: flex;
+          margin: 15px 5px 40px;
+
+          div {
+            text-align: center;
+            margin-right: 25px;
+
+            img {
+              height: 30px;
+
+              @media screen and (max-width: 750px) {
+                height: 25px;
+              }
+            }
+
+            p {
+              color: rgb(204, 202, 202);
+              font-family: "Roboto", sans-serif;
+              font-size: 0.8rem;
+              margin-top: 5px;
+            }
+
+            @media screen and (max-width: 400px) {
+              margin-right: 15px;
+            }
+          }
+        }
+
+        .buttons {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+
+          a {
+            border: 1px solid rgb(170, 170, 170);
+            border-radius: 20px;
+            box-shadow: 2px 3px 3px #272727;
+            color: rgb(170, 170, 170);
+            font-size: 0.8rem;
+            font-family: "Roboto", sans-serif;
+            flex-direction: column;
+            text-decoration: none;
+            margin-right: 5px;
+            padding: 5px 10px;
+
+            &:hover {
+              background-color: rgb(170, 170, 170);
+              color: rgb(49, 60, 70);
+            }
+          }
+
+          @media screen and (max-width: 800px) {
+            .github {
+              display: none;
+            }
+          }
+
+          @media screen and (max-width: 700px) {
+            justify-content: center;
+
+            a {
+              font-size: 0.9rem;
+              padding: 5px 25px;
+            }
+          }
+        }
+
+        .see-more {
+          background-color: rgb(170, 170, 170);
+          border-radius: 20px;
+          border: 1px solid gray;
+          box-shadow: 3px 3px 3px #333333;
+          color: rgb(49, 60, 70);
+          cursor: pointer;
+          font-family: "Roboto", sans-serif;
+          font-size: 0.8rem;
+          padding: 5px 10px;
+          width: fit-content;
+
+          &:hover {
+            background-color: rgb(49, 60, 70);
             border: 1px solid gray;
-            border-radius: 3px;
-            box-shadow: 5px 5px 10px #272727;
-            display: flex;
-            margin: 50px 0;
-            padding: 1px;
-            width: 48%;
+            color: gray;
+          }
 
-            @media screen and (max-width: $tablet){
-                width: 80%;
-            }
-
-            @media screen and (max-width: 700px){
-                margin: 20px 0;
-                width: 100%;
-            }
-    
-            .screenshot {
-                height: 400px;
-
-                @media screen and (max-width: 750px) {
-                    height: 350px;
-                }
-
-                @media screen and (max-width: 700px) {
-                    display: none;
-                }
-            }
-    
-            .project-info {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                margin: 0 auto;
-                padding: 20px;
-    
-                h2 {
-                    font-family: 'Merriweather', serif;
-                    font-size: 1.2rem;
-                }
-    
-                .proj-desc {
-                    color: rgb(204, 202, 202);
-                    font-family: 'Roboto', sans-serif;
-                    line-height: 1.2;
-                    margin: 20px 0 40px;
-
-                    @media screen and (max-width: 750px) {
-                        font-size: .8rem;
-                    }
-                }
-    
-                h3 {
-                    font-family: 'Merriweather', serif;
-                    font-size: .9rem;
-                }
-    
-                .tech {
-                    display: flex;
-                    margin: 15px 5px 40px;
-                    
-                    div {
-                        text-align: center;
-                        margin-right: 25px;
-    
-                        img {
-                            height: 30px;
-
-                            @media screen and (max-width: 750px) {
-                                height: 25px;
-                            }
-                        }
-    
-                        p {
-                            color: rgb(204, 202, 202);
-                            font-family: 'Roboto', sans-serif;
-                            font-size: .8rem;
-                            margin-top: 5px;
-                        }
-
-                        @media screen and (max-width: 400px){
-                            margin-right: 15px;
-                        }
-                    }
-                }
-    
-                .buttons {
-                    align-items: center;
-                    display: flex;
-                    justify-content: space-between;
-    
-                    a {
-                        border: 1px solid rgb(170, 170, 170);
-                        border-radius: 20px;
-                        box-shadow: 2px 3px 3px #272727;
-                        color: rgb(170, 170, 170);
-                        font-size: .8rem;
-                        font-family: 'Roboto', sans-serif;
-                        flex-direction: column;
-                        text-decoration: none;
-                        margin-right: 5px;
-                        padding: 5px 10px;
-        
-                        &:hover {
-                            background-color: rgb(170, 170, 170);;
-                            color: rgb(49, 60, 70);
-                        }
-                    }
-
-                    @media screen and (max-width: 800px) {
-                        .github {
-                            display: none
-                        }
-                    }
-
-                    @media screen and (max-width: 700px) {
-                        justify-content: center;
-
-                        a {
-                            font-size: .9rem;
-                            padding: 5px 25px;
-                        }
-                    }
-    
-                }
-
-                .see-more {
-                    background-color: rgb(170, 170, 170);
-                    border-radius: 20px;
-                    border: 1px solid gray;
-                    box-shadow: 3px 3px 3px #333333;
-                    color: rgb(49, 60, 70);
-                    cursor: pointer;
-                    font-family: 'Roboto', sans-serif;
-                    font-size: .8rem;
-                    padding: 5px 10px;
-                    width: fit-content;
-                    
-                    &:hover {
-                        background-color: rgb(49, 60, 70);
-                        border: 1px solid gray;
-                        color: gray;
-                    }
-
-                    @media screen and (max-width: 700px) {
-                        display: none;
-                    }
-                }
-    
-            }
+          @media screen and (max-width: 700px) {
+            display: none;
+          }
         }
-
-        .desktop {
-            flex-direction: column;
-            width: 48%;
-
-            @media screen and (min-width: $tablet){
-
-                .project-info {
-                    padding: 20px 30px;
-
-                    .proj-desc {
-                        margin: 5px 10px 0 0;
-                    }
-
-                    .info-flex {
-                        display: flex;
-                        justify-content: space-between;
-
-                        .proj-desc {
-                            font-size: 15px;
-                        }
-        
-                        .tech {
-                            margin-bottom: 20px;
-                        
-                            div:last-child{
-                                margin-right: 0;
-                            }
-                        }
-                    }
-                }
-            }
-
-            .desktop-img{
-                height: auto;
-                width: 100%;
-            }
-
-            @media screen and (max-width: $tablet){
-                width: 80%;
-
-                .desktop-img {
-                    height: auto;
-                    max-width: 100%;
-                }
-            }
-
-            @media screen and (max-width: 700px){
-                width: 100%;
-            }
-        }
-        
+      }
     }
+
+    .desktop {
+      flex-direction: column;
+      width: 48%;
+
+      @media screen and (min-width: $tablet) {
+        .project-info {
+          padding: 20px 30px;
+
+          .proj-desc {
+            margin: 5px 10px 0 0;
+          }
+
+          .info-flex {
+            display: flex;
+            justify-content: space-between;
+
+            .proj-desc {
+              font-size: 15px;
+            }
+
+            .tech {
+              margin-bottom: 20px;
+
+              div:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .desktop-img {
+        height: auto;
+        width: 100%;
+      }
+
+      @media screen and (max-width: $tablet) {
+        width: 80%;
+
+        .desktop-img {
+          height: auto;
+          max-width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 700px) {
+        width: 100%;
+      }
+    }
+  }
 }
