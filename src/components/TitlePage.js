@@ -10,7 +10,7 @@ function TitlePage() {
     <div className='header-page'>
       <div className='logos'>
         <a
-          href='https://drive.google.com/open?id=1HEN6aegKNh5Fe7dDDduwy4VdG0uWupX0'
+          href='https://drive.google.com/file/d/1lOVjN5NySDH64EUzZVgTevTEzXsboCNU/view?usp=sharing'
           rel='noopener noreferrer'
           target='_blank'
         >
