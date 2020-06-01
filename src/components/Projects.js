@@ -6,7 +6,7 @@ import { desc } from "../ProjectDescription";
 
 import keyConservation from "../images/screenshots/Key-Conservation.jpg";
 import blackjackCounter from "../images/screenshots/BlackJack-Counter.jpg";
-import forLifeFitness from "../images/screenshots/forLife-Fitness-cropped.png";
+import bucketList from "../images/screenshots/Bucket-List.jpg";
 import guidr from "../images/screenshots/GUIDR.jpg";
 import reactLogo from "../images/logos/React-Logo.png";
 import reactNativeLogo from "../images/logos/React-Native-Logo.png";
@@ -14,7 +14,6 @@ import reduxLogo from "../images/logos/Redux-Logo.png";
 import nodeLogo from "../images/logos/Node-Logo.png";
 import sassLogo from "../images/logos/Sass-Logo.png";
 import bootstrapLogo from "../images/logos/Bootstrap-Logo.png";
-import formikLogo from "../images/logos/Formik-Logo.PNG";
 
 function Projects(props) {
   return (
@@ -176,18 +175,21 @@ function Projects(props) {
             </div>
           </div>
         </div>
-        <div className='project-card desktop'>
+
+
+
+
+        <div className='project-card'>
           <img
-            className='screenshot desktop-img'
-            src={forLifeFitness}
-            alt='forLife fitness logo'
+            className='screenshot'
+            src={bucketList}
+            alt='bucket list screenshot'
           />
           <div className='project-info'>
-            <h2>forLife Fitness</h2>
+            <h2>Bucket List Tracker</h2>
             <div className='info-flex'>
               <p className='proj-desc'>
-                forLife Fitness is a weight lifting journal used to help lifters
-                track and document their success and progression.
+                The Bucket List Tracker allows users to document and share their personal life goals with other users.
               </p>
               <div>
                 <h3>Technologies Used:</h3>
@@ -204,10 +206,6 @@ function Projects(props) {
                     <img src={bootstrapLogo} alt='bootstrap logo' />
                     <p>reactstrap</p>
                   </div>
-                  <div>
-                    <img src={formikLogo} alt='formik logo' />
-                    <p>Formik</p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -215,14 +213,14 @@ function Projects(props) {
               <div>
                 <a
                   className='github'
-                  href='https://github.com/bw-weight-lifting-journal/Front-end'
+                  href='https://github.com/BrandonHarrison01/30for30-fe'
                   rel='noopener noreferrer'
                   target='_blank'
                 >
                   GitHub
                 </a>
                 <a
-                  href='https://forlife-fitness.netlify.com/'
+                  href='https://bucket-list-tracker.netlify.app/'
                   rel='noopener noreferrer'
                   target='_blank'
                 >
@@ -238,9 +236,9 @@ function Projects(props) {
             </div>
           </div>
 
-          {/* need to check screen width and conditionally change classname between cropped and uncropped */}
 
-          {/* <img className='desktop-img' src={forLifeFitness   👌 cropped   } /> */}
+
+
         </div>
       </div>
     </div>

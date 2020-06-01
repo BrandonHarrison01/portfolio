@@ -77,7 +77,7 @@ export const desc = [
     gif: blackjack
   },
   {
-    title: "forLife Fitness",
+    title: "Bucket List Tracker",
     role:
       "I took the roll of a Front-End Developer for this project and had the responsibility to lead two other less experienced React Developers and work directly with a UX Designer.",
     difficulties:
