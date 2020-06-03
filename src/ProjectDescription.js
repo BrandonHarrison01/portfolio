@@ -1,7 +1,7 @@
 import keyCon from "./images/gifs/key-con-portfolio.gif";
 import blackjack from "./images/gifs/blackjack-portfolio.gif";
 import guidr from "./images/gifs/guidr-portfolio.gif";
-import forLife from "./images/gifs/forlife-portfolio.gif";
+import bucketList from "./images/gifs/bucket-list-portfolio.gif";
 
 export const desc = [
   {
@@ -96,6 +96,6 @@ export const desc = [
           "A list of users that have admin access that can moderate and delete potential distasteful goals posted to community page."
       }
     ],
-    gif: blackjack
+    gif: bucketList
   }
 ];
