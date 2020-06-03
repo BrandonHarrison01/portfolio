@@ -79,23 +79,23 @@ export const desc = [
   {
     title: "Bucket List Tracker",
     role:
-      "I took the roll of a Front-End Developer for this project and had the responsibility to lead two other less experienced React Developers and work directly with a UX Designer.",
+      "This was a personal project of mine where I was able to take up all responsibilities myself, I had the opportunity to build the front and back end as well as the design for this app.",
     difficulties:
-      "Our Back-End Developer lived in Europe, which made communicating difficult given our timezones were dramatically different.",
+      "Before this project I had a difficult time with the React lifecycle, I had several bugs involving components rendering at the wrong time.",
     solution:
-      "We organized questions about issues we were having, and what data we needed where and had dense efficient meetings during the narrow window our schedules collided.",
+      "I read a lot of documentation and scattered logs throughout the app to better understand what would render when. After this project I feel very confident in my understanding of lifecycles.",
     features: [
       {
         id: 1,
         bullet:
-          "Users are able to keep a log of weight lifting progress by date."
+          "Users can document life goals, sort them, share them, set a finish by date, and track goals that have been completed."
       },
       {
         id: 2,
         bullet:
-          "Users can Create, Read, Update, and Delete exercises under a category of targeted muscles."
+          "A list of users that have admin access that can moderate and delete potential distasteful goals posted to community page."
       }
     ],
-    gif: forLife
+    gif: blackjack
   }
 ];
