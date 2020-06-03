@@ -2,6 +2,7 @@ import keyCon from "./images/gifs/key-con-portfolio.gif";
 import blackjack from "./images/gifs/blackjack-portfolio.gif";
 import guidr from "./images/gifs/guidr-portfolio.gif";
 import bucketList from "./images/gifs/bucket-list-portfolio.gif";
+// changed gif
 
 export const desc = [
   {
