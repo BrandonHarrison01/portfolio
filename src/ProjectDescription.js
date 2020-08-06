@@ -2,6 +2,7 @@ import keyCon from "./images/gifs/key-con-portfolio.gif";
 import blackjack from "./images/gifs/blackjack-portfolio.gif";
 import guidr from "./images/gifs/guidr-portfolio.gif";
 import bucketList from "./images/gifs/bucket-list-portfolio.gif";
+import connectFour from "./images/gifs/connect-four.gif";
 
 export const desc = [
   {
@@ -97,5 +98,32 @@ export const desc = [
       }
     ],
     gif: bucketList
+  },
+  {
+    title: "Virutal Connect Four",
+    role:
+      "This was an app I had been playing with the concepts of for quite some time and I have built myself to put my javascript logic to the test.",
+    difficulties:
+      "This project really helped me understand more of the nitty gritty involved in React Hooks, I was also able to solve some fun problems involving nested arrays.",
+    solution:
+      "I got deep into the React Hooks documentation, I built out a pretty elaborate custom hook and then decided that it didn't need to be a hook at all.",
+    features: [
+      {
+        id: 1,
+        bullet:
+          "Users can play classic connect four against one another or versus an artificially intelligent bot."
+      },
+      {
+        id: 2,
+        bullet:
+          "A function runs after every move to check for a winner allowing a modal to pop up and alert players if a winner is found."
+      },
+      {
+        id: 3,
+        bullet:
+          "There is a scoreboard that keeps a running count of wins in either game mode and can be reset whenever."
+      }
+    ],
+    gif: connectFour
   }
 ];

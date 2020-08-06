@@ -61,7 +61,7 @@ function Projects(props) {
               </div>
               <p
                 className='see-more'
-                onClick={() => props.toggleModal(desc[0])}
+                onClick={() => props.toggleModal(desc[4])}
               >
                 See More
               </p>
