@@ -4,6 +4,7 @@ import "../styling/Projects.scss";
 
 import { desc } from "../ProjectDescription";
 
+import connectFour from "../images/screenshots/Connect-Four.PNG";
 import keyConservation from "../images/screenshots/Key-Conservation.jpg";
 import blackjackCounter from "../images/screenshots/BlackJack-Counter.jpg";
 import bucketList from "../images/screenshots/Bucket-List.jpg";
@@ -22,6 +23,51 @@ function Projects(props) {
         <h1>{"< Projects >"}</h1>
       </div>
       <div className='cards'>
+        <div className='project-card'>
+          <img
+            src={connectFour}
+            className='screenshot'
+            alt='connect four screenshot'
+          />
+          <div className='project-info'>
+            <h2>Virtual Connect Four</h2>
+            <p className='proj-desc'>
+              Virtual Connect Four allows users play classic Connect Four against one another or versus a bot.
+            </p>
+            <h3>Technologies Used:</h3>
+            <div className='tech'>
+              <div>
+                <img src={reactLogo} alt='react logo' />
+                <p>React</p>
+              </div>
+              <div>
+                <img src={sassLogo} alt='sass logo' />
+                <p>SCSS</p>
+              </div>
+            </div>
+            <div className='buttons'>
+              <div>
+                <a
+                  className='github'
+                  href='https://github.com/BrandonHarrison01/connect-four'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  GitHub
+                </a>
+                <a href='https://kinnect-for.netlify.app/' rel='noopener noreferrer' target='_blank'>
+                  App Link
+                </a>
+              </div>
+              <p
+                className='see-more'
+                onClick={() => props.toggleModal(desc[4])}
+              >
+                See More
+              </p>
+            </div>
+          </div>
+        </div>
         <div className='project-card'>
           <img
             src={keyConservation}
@@ -60,9 +106,9 @@ function Projects(props) {
                 >
                   GitHub
                 </a>
-                {/* <a href='https://blakjak-counter.netlify.com/' target='_blank'>
-                  Deployed App
-                </a> */}
+                <a href='https://www.keyconservation.org/' rel='noopener noreferrer' target='_blank'>
+                  App Website
+                </a>
               </div>
               <p
                 className='see-more'
