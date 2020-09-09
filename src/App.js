@@ -1,6 +1,6 @@
 // USE YARN 🤠
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./styling/App.scss";
 
 // components
@@ -13,28 +13,10 @@ import HiddenComponent from "./components/HiddenComponent";
 
 //background images
 import midvaleMtn from "./images/backgrounds/midvale-mtn-min.JPG";
-import jordanRiver from "./images/backgrounds/jordan-river-min.jpg";
-import quintero from "./images/backgrounds/quintero-min.jpg";
-import stansburyIsland from "./images/backgrounds/stansbury-island-min.jpg";
-import horseshoeSprings from "./images/backgrounds/horseshoe-springs-min.jpg";
 
 function App() {
   const [toggle, setToggle] = useState(false);
   const [populateModal, setPopulateModal] = useState();
-  const [randomIndex, setRandomIndex] = useState();
-
-  // import background ↑ add it to useState array ↓
-  const background = [
-    midvaleMtn,
-    jordanRiver,
-    quintero,
-    stansburyIsland,
-    horseshoeSprings
-  ];
-
-  useEffect(() => {
-    setRandomIndex(Math.floor(Math.random() * background.length));
-  }, [background.length]);
 
   const toggleModal = argument => {
     setToggle(true);
@@ -49,7 +31,7 @@ function App() {
     <div className='App'>
       <img
         className='background'
-        src={background[randomIndex]}
+        src={midvaleMtn}
         alt='background'
       />
       <NavBar />
