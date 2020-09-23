@@ -32,7 +32,7 @@ function Projects(props) {
           <div className='project-info'>
             <h2>Virtual Connect Four</h2>
             <p className='proj-desc'>
-              Virtual Connect Four allows users play classic Connect Four against one another or versus a bot.
+              Virtual Connect Four allows users play classic Connect Four against a computer or other players.
             </p>
             <h3>Technologies Used:</h3>
             <div className='tech'>
@@ -77,9 +77,8 @@ function Projects(props) {
           <div className='project-info'>
             <h2>Key Conservation</h2>
             <p className='proj-desc'>
-              Key Conservation is a mobile application built for a non-profit
-              organization that helps supporters connect and donate to
-              conservations more effortlessly.
+              The Key Conservation app is a mobile application built for a non-profit. 
+              The app the allows supporters to follow, donate, and interact with wildlife conservations.
             </p>
             <h3>Technologies Used:</h3>
             <div className='tech'>

@@ -14,14 +14,18 @@
     padding: 80px 30px;
   }
 
-  h1 {
+  .about {
     background-color: white;
     border-radius: 2px;
+    display: flex;
+    width: 200px;
+    padding: 5px;
+  }
+
+  .about-text {
     color: black;
-    display: inline-block;
     font-family: "Merriweather", serif;
     font-size: 1.6rem;
-    padding: 5px 20px;
   }
 
   .about-body {

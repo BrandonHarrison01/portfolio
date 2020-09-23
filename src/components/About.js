@@ -3,9 +3,14 @@ import React from "react";
 import "../styling/About.scss";
 
 function About() {
+
   return (
     <div className='about-container'>
-      <h1>{"< About Me >"}</h1>
+      <div className='about'>
+        <span className='about-text'>{"<"}</span>
+        <h1 className='about-text'>About Me</h1>
+        <span className='about-text'>{">"}</span>
+      </div>
       <div className='about-body'>
         <h2>
           Hi I'm Brandon!

@@ -20,10 +20,18 @@
 
     a {
       text-decoration: none;
-      transition: all 0.2s ease-in-out;
+      transition: all .4s;
 
       &:hover {
-        transform: matrix(1.1, 0.15, 0, 1.1, -2, -2);
+        transform: skewY(12deg);
+
+        .logo {
+          color: rgb(0, 255, 0);
+        }
+        
+        // p {
+        //   font-size: .8rem;
+        // }
       }
     }
 
@@ -59,7 +67,7 @@
   }
 
   h2 {
-    color: rgb(194, 194, 194);
+    color: rgb(35, 253, 28);
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     margin: 10px;
