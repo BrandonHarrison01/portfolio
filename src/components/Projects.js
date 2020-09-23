@@ -124,7 +124,7 @@ function Projects(props) {
             <h2>GUIDR</h2>
             <p className='proj-desc'>
               Guidr is a mobile first web application created for outdoor
-              enthusiasts to document and share photos and entries of their
+              enthusiasts to document and share entries of their
               outdoor adventures.
             </p>
             <h3>Technologies Used:</h3>

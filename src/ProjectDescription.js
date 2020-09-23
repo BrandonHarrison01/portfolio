@@ -39,7 +39,7 @@ export const desc = [
     difficulties:
       "At the time I was quite new to Redux and didn't have a lot of confidence in my ability to interact with a RESTful api.",
     solution:
-      "I referenced a lot of docs plus dug through several previous projects. I also heavily communicated with our Back-End dev to figure out what data was being sent and recieved.",
+      "I referenced a lot of docs plus dug through several previous projects. I also heavily communicated with our Back-End Developer to figure out what data was being sent and recieved.",
     features: [
       {
         id: 1,

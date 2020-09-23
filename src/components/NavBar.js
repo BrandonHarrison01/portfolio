@@ -12,11 +12,23 @@ function NavBar() {
 
   return (
     <div className='nav-bar'>
-      <button onClick={() => scrollWhere(0)}>Home</button>
+      <div className='nav-item'>
+        <button onClick={() => scrollWhere(0)}>Home</button>
+        <div className='underline'/>
+      </div>
       <div className='site-nav'>
-        <button onClick={() => scrollWhere(2000)}>Projects</button>
-        <button onClick={() => scrollWhere(1025)}>About</button>
-        <button onClick={() => scrollWhere(10000)}>Contact</button>
+        <div className='nav-item'>
+          <button onClick={() => scrollWhere(1025)}>About</button>
+          <div className='underline'/>
+        </div>
+        <div className='nav-item'>
+          <button onClick={() => scrollWhere(2000)}>Projects</button>
+          <div className='underline'/>
+        </div>
+        <div className='nav-item'>
+          <button onClick={() => scrollWhere(10000)}>Contact</button>
+          <div className='underline'/>
+        </div>
       </div>
     </div>
   );

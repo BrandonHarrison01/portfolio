@@ -36,12 +36,23 @@
     outline: none;
     text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
-    }
-
     @media screen and (max-width: 500px) {
       font-size: 0.9rem;
+    }
+    
+  }
+
+  .underline {
+    height: 2px;
+    width: 2px;
+    background-color: black;
+    transition: width 1s, background-color 1s;
+  }
+  
+  .nav-item:hover{
+    .underline {
+      width: 100%;
+      background-color: rgb(35, 253, 28);
     }
   }
 }
